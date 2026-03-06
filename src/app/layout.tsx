@@ -3,6 +3,7 @@ import Script from 'next/script';
 import Link from 'next/link';
 import './globals.css';
 import { ThemeToggle } from '@/components/ThemeToggle';
+import { ServiceWorkerRegister } from '@/components/ServiceWorkerRegister';
 
 export const metadata: Metadata = {
   title: {
@@ -24,6 +25,7 @@ export const metadata: Metadata = {
     'activități România',
   ],
   metadataBase: new URL('https://ceva-bun.ro'),
+  manifest: '/manifest.json',
   alternates: {
     canonical: '/',
   },
@@ -69,10 +71,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ro" className="dark">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" href="/icon-192.svg" />
+        <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#0f172a" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
       </head>
       <body>
+        <ServiceWorkerRegister />
         <Script
           src="https://analytics.noru1.ro/script.js"
           data-website-id="2a4e7fc4-58d3-44fc-9d4e-7e1c80c90b7d"

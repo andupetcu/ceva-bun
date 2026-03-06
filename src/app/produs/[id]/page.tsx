@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { db } from '@/db';
 import { products } from '@/db/schema';
+import { AffiliateLink } from '@/components/AffiliateLink';
 import { money } from '@/lib/utils';
 
 const categoryNames: Record<string, string> = {
@@ -84,14 +85,16 @@ export default async function ProductPage({ params }: { params: { id: string } }
         </div>
         {product.description ? <p className="text-slate-200/90">{product.description}</p> : null}
         <p className="text-sm text-slate-300">Sursă: {product.sourceName || 'Ceva Bun'}</p>
-        <a
+        <AffiliateLink
           href={outboundUrl}
-          target="_blank"
-          rel="noreferrer"
+          category={product.category}
+          productId={product.id}
+          sourceName={product.sourceName}
+          priceCents={product.priceCents}
           className="inline-block rounded-xl bg-emerald-500 px-6 py-3 font-semibold text-slate-950 hover:bg-emerald-400 transition-colors"
         >
           Mergi la ofertă →
-        </a>
+        </AffiliateLink>
       </div>
     </main>
   );

@@ -25,6 +25,7 @@ export const products = sqliteTable('products', {
   rating: real('rating'),
   tags: text('tags', { mode: 'json' }).$type<string[]>(),
   lat: real('lat'),
+  lon: real('lon'),
   lng: real('lng'),
   createdAt: text('created_at').default(sql`CURRENT_TIMESTAMP`),
   updatedAt: text('updated_at').default(sql`CURRENT_TIMESTAMP`),

@@ -2,10 +2,9 @@
 
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { ProductCard } from '@/components/ProductCard';
 import type { Product } from '@/db/schema';
-import { categoryLabels, categoryEmoji } from '@/lib/utils';
 
 const categoryLabelsMap: Record<string, string> = {
   bagat_in_gura: '🍴 De Băgat în Gură',
@@ -42,6 +41,29 @@ export function FilteredListing({
   const [selectedCity, setSelectedCity] = useState(city || '');
   const [minPrice, setMinPrice] = useState(min > 0 ? String(min / 100) : '');
   const [maxPrice, setMaxPrice] = useState(max < 99999999 ? String(max / 100) : '');
+  const [searchInput, setSearchInput] = useState('');
+  const [searchQuery, setSearchQuery] = useState('');
+
+  useEffect(() => {
+    const timeout = window.setTimeout(() => {
+      setSearchQuery(searchInput.trim().toLowerCase());
+    }, 300);
+
+    return () => {
+      window.clearTimeout(timeout);
+    };
+  }, [searchInput]);
+
+  const filteredItems = useMemo(() => {
+    if (!searchQuery) return items;
+
+    return items.filter((item) => {
+      const title = item.title.toLowerCase();
+      const description = (item.description || '').toLowerCase();
+      const sourceName = (item.sourceName || '').toLowerCase();
+      return title.includes(searchQuery) || description.includes(searchQuery) || sourceName.includes(searchQuery);
+    });
+  }, [items, searchQuery]);
 
   const applyFilters = () => {
     const params = new URLSearchParams();
@@ -86,6 +108,29 @@ export function FilteredListing({
       {/* Filters */}
       <section className="glass p-4">
         <div className="flex flex-wrap items-end gap-3">
+          <div className="flex min-w-[260px] flex-1 flex-col gap-1">
+            <label className="text-xs font-semibold uppercase tracking-wide text-slate-400">Caută</label>
+            <div className="relative">
+              <input
+                type="text"
+                value={searchInput}
+                onChange={(e) => setSearchInput(e.target.value)}
+                placeholder="Titlu, descriere, sursă..."
+                className="w-full rounded-lg border border-white/20 bg-white/10 px-3 py-2 pr-10 text-sm backdrop-blur-sm"
+              />
+              {searchInput && (
+                <button
+                  type="button"
+                  onClick={() => setSearchInput('')}
+                  className="absolute right-2 top-1/2 -translate-y-1/2 rounded px-2 py-1 text-sm text-slate-300 hover:text-white"
+                  aria-label="Șterge căutarea"
+                >
+                  ×
+                </button>
+              )}
+            </div>
+          </div>
+
           <div className="flex flex-col gap-1">
             <label className="text-xs font-semibold uppercase tracking-wide text-slate-400">Categorie</label>
             <select
@@ -162,15 +207,34 @@ export function FilteredListing({
       </section>
 
       {/* Products grid */}
+      <p className="text-sm text-slate-300">
+        {searchQuery
+          ? `${filteredItems.length} ${filteredItems.length === 1 ? 'rezultat' : 'rezultate'} după căutare pe pagina curentă`
+          : `${items.length} ${items.length === 1 ? 'rezultat afișat' : 'rezultate afișate'} pe pagina curentă`}
+      </p>
       <section className="grid gap-4 md:grid-cols-3">
-        {items.length > 0 ? (
-          items.map((item) => <ProductCard key={item.id} product={item} />)
+        {filteredItems.length > 0 ? (
+          filteredItems.map((item) => <ProductCard key={item.id} product={item} />)
         ) : (
           <div className="col-span-full glass p-8 text-center">
-            <p className="text-lg">Nu am găsit nimic pe filtrele selectate 😔</p>
-            <button onClick={clearFilters} className="mt-3 text-sm underline opacity-70 hover:opacity-100">
-              Resetează filtrele
-            </button>
+            {searchQuery ? (
+              <>
+                <p className="text-lg">Nu am găsit rezultate pentru căutarea ta 😔</p>
+                <button
+                  onClick={() => setSearchInput('')}
+                  className="mt-3 text-sm underline opacity-70 hover:opacity-100"
+                >
+                  Șterge căutarea
+                </button>
+              </>
+            ) : (
+              <>
+                <p className="text-lg">Nu am găsit nimic pe filtrele selectate 😔</p>
+                <button onClick={clearFilters} className="mt-3 text-sm underline opacity-70 hover:opacity-100">
+                  Resetează filtrele
+                </button>
+              </>
+            )}
           </div>
         )}
       </section>

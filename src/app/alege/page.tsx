@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { BudgetSlider } from '@/components/BudgetSlider';
+import { AffiliateLink } from '@/components/AffiliateLink';
 import { categoryLabels, money } from '@/lib/utils';
 import type { ProductCategory } from '@/db/schema';
 
@@ -17,6 +18,7 @@ type Product = {
   currency: string | null;
   affiliateUrl: string | null;
   productUrl: string | null;
+  sourceName: string | null;
 };
 
 export default function AlegePage({ searchParams }: { searchParams: Record<string, string | undefined> }) {
@@ -76,14 +78,16 @@ export default function AlegePage({ searchParams }: { searchParams: Record<strin
               ) : null}
               {product.description ? <p className="text-slate-200/90">{product.description}</p> : null}
               <div className="flex flex-wrap gap-3 pt-2">
-                <a
+                <AffiliateLink
                   href={product.affiliateUrl && !product.affiliateUrl.includes('placeholder') ? product.affiliateUrl : (product.productUrl || '#')}
-                  target="_blank"
+                  category={product.category}
+                  productId={product.id}
+                  sourceName={product.sourceName}
+                  priceCents={product.priceCents}
                   className="rounded-xl bg-emerald-500 px-4 py-2 font-semibold text-slate-950"
-                  rel="noreferrer"
                 >
                   Vezi oferta
-                </a>
+                </AffiliateLink>
                 <button onClick={getRandom} className="rounded-xl border border-white/30 px-4 py-2">
                   Arată-mi altceva
                 </button>
