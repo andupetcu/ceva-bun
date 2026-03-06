@@ -9,10 +9,11 @@ RUN pnpm install --frozen-lockfile
 RUN cd node_modules/.pnpm/better-sqlite3@*/node_modules/better-sqlite3 && npx --yes node-gyp rebuild 2>/dev/null || pnpm rebuild better-sqlite3
 
 FROM base AS builder
+ENV NEXT_TELEMETRY_DISABLED=1
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN mkdir -p db && pnpm db:migrate && pnpm db:seed
-RUN pnpm build
+RUN NODE_OPTIONS="--max-old-space-size=512" pnpm build
 
 FROM node:20-alpine AS runner
 WORKDIR /app
