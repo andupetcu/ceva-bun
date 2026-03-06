@@ -16,6 +16,7 @@ type Product = {
   oldPriceCents: number | null;
   currency: string | null;
   affiliateUrl: string | null;
+  productUrl: string | null;
 };
 
 export default function AlegePage({ searchParams }: { searchParams: Record<string, string | undefined> }) {
@@ -76,7 +77,7 @@ export default function AlegePage({ searchParams }: { searchParams: Record<strin
               {product.description ? <p className="text-slate-200/90">{product.description}</p> : null}
               <div className="flex flex-wrap gap-3 pt-2">
                 <a
-                  href={product.affiliateUrl || '#affiliate-placeholder'}
+                  href={product.affiliateUrl && !product.affiliateUrl.includes('placeholder') ? product.affiliateUrl : (product.productUrl || '#')}
                   target="_blank"
                   className="rounded-xl bg-emerald-500 px-4 py-2 font-semibold text-slate-950"
                   rel="noreferrer"
