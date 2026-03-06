@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  ceva-bun:
+    build: .
+    container_name: ceva-bun
+    ports:
+      - '3000:3000'
+    environment:
+      - ADMIN_PASSWORD=change-me
+      - DATABASE_URL=file:./db/ceva-bun.db
+      - NEXT_PUBLIC_MAP_TILE_URL=https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
+    volumes:
+      - ./db:/app/db

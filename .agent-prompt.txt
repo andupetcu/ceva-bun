@@ -1,0 +1,18 @@
+Read PRD.md carefully. This is a full rebuild of Ceva Bun as a Next.js 14+ App Router monolith.
+
+IMPORTANT STEPS:
+1. Delete the old apps/ directory (it's the old FastAPI+React scaffold, we're replacing it)
+2. Initialize a fresh Next.js 14 project in the root (src/ directory structure as specified in PRD)
+3. Set up Drizzle ORM + SQLite
+4. Create the seed data file with ~50 realistic Romanian products
+5. Build ALL pages: Landing, Budget/Random, Listing, Product Detail, Map, Submission form
+6. Build ALL API routes
+7. Build the admin panel with password auth
+8. Make sure the glassmorphism UI looks great (dark mode default)
+9. Add Dockerfile + docker-compose.yml
+10. Run the seed script so the DB is populated
+11. Make sure pnpm build passes
+
+Use pnpm as package manager. Romanian language throughout the UI.
+
+When completely finished, run this command to notify: openclaw system event --text "Done: Ceva Bun Next.js rebuild complete" --mode now
