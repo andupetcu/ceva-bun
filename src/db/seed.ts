@@ -13,7 +13,12 @@ async function main() {
   db.delete(products).run();
 
   if (entries.length > 0) {
-    db.insert(products).values(entries).run();
+    // Batch insert to avoid SQLite variable limit
+    const BATCH = 100;
+    for (let i = 0; i < entries.length; i += BATCH) {
+      const batch = entries.slice(i, i + BATCH);
+      db.insert(products).values(batch).run();
+    }
   }
 
   console.log(`Seed finalizat: ${entries.length} produse inserate.`);
