@@ -7,7 +7,7 @@ type ProductFormData = {
   id?: number;
   title?: string;
   description?: string | null;
-  category?: 'baut' | 'mancat' | 'facut';
+  category?: string;
   priceCents?: number;
   oldPriceCents?: number | null;
   priceSuffix?: string | null;
@@ -81,10 +81,13 @@ export function AdminProductForm({ initial }: { initial?: ProductFormData }) {
     <form onSubmit={onSubmit} className="glass space-y-4 p-6">
       <input name="title" required placeholder="Titlu" defaultValue={initial?.title || ''} className="w-full rounded-xl bg-slate-900/50 p-3" />
       <textarea name="description" placeholder="Descriere" defaultValue={initial?.description || ''} className="w-full rounded-xl bg-slate-900/50 p-3" rows={4} />
-      <select name="category" defaultValue={initial?.category || 'baut'} className="w-full rounded-xl bg-slate-900/50 p-3">
-        <option value="baut">Ceva Bun de Băut</option>
-        <option value="mancat">Ceva Bun de Mâncat</option>
-        <option value="facut">Ceva Bun de Făcut</option>
+      <select name="category" defaultValue={initial?.category || 'bagat_in_gura'} className="w-full rounded-xl bg-slate-900/50 p-3">
+        <option value="bagat_in_gura">De Băgat în Gură</option>
+        <option value="de_facut">De F***t</option>
+        <option value="de_purtat">De Purtat</option>
+        <option value="pentru_copii">Pentru Copii</option>
+        <option value="de_citit">De Citit</option>
+        <option value="18plus">18+</option>
       </select>
       <input name="priceCents" type="number" required defaultValue={initial?.priceCents || 0} placeholder="Preț (bani)" className="w-full rounded-xl bg-slate-900/50 p-3" />
       <input name="oldPriceCents" type="number" defaultValue={initial?.oldPriceCents || ''} placeholder="Preț vechi (bani)" className="w-full rounded-xl bg-slate-900/50 p-3" />

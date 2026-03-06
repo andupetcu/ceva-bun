@@ -9,7 +9,7 @@ export default async function HartaPage() {
   const items = await db
     .select({ id: products.id, title: products.title, lat: products.lat, lng: products.lng })
     .from(products)
-    .where(and(eq(products.category, 'facut'), isNotNull(products.lat), isNotNull(products.lng)));
+    .where(and(eq(products.category, 'de_facut'), isNotNull(products.lat), isNotNull(products.lng)));
 
   const pins = items.map((item) => ({
     id: item.id,

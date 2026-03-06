@@ -1,4 +1,5 @@
 import { CategoryCard } from '@/components/CategoryCard';
+import { categories } from '@/db/schema';
 
 export default function LandingPage() {
   return (
@@ -10,9 +11,9 @@ export default function LandingPage() {
         </p>
       </section>
       <section className="grid gap-5 md:grid-cols-3">
-        <CategoryCard category="baut" />
-        <CategoryCard category="mancat" />
-        <CategoryCard category="facut" />
+        {categories.map((cat) => (
+          <CategoryCard key={cat} category={cat} />
+        ))}
       </section>
     </main>
   );

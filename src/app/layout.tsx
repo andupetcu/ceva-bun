@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/sugereaza" className="text-sm text-slate-300 hover:text-white">
                 Sugerează
               </Link>
-              <Link href="/harta?c=facut" className="text-sm text-slate-300 hover:text-white">
+              <Link href="/harta?c=de_facut" className="text-sm text-slate-300 hover:text-white">
                 Hartă
               </Link>
               <ThemeToggle />

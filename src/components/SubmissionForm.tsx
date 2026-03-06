@@ -42,9 +42,12 @@ export function SubmissionForm() {
       <input name="title" required placeholder="Titlu" className="w-full rounded-xl bg-slate-900/50 p-3" />
       <textarea name="description" placeholder="Descriere" className="w-full rounded-xl bg-slate-900/50 p-3" rows={4} />
       <select name="category" required className="w-full rounded-xl bg-slate-900/50 p-3">
-        <option value="baut">Ceva Bun de Băut</option>
-        <option value="mancat">Ceva Bun de Mâncat</option>
-        <option value="facut">Ceva Bun de Făcut</option>
+        <option value="bagat_in_gura">De Băgat în Gură</option>
+        <option value="de_facut">De F***t</option>
+        <option value="de_purtat">De Purtat</option>
+        <option value="pentru_copii">Pentru Copii</option>
+        <option value="de_citit">De Citit</option>
+        <option value="18plus">18+</option>
       </select>
       <input name="suggestedPrice" type="number" min={0} placeholder="Preț estimat (bani)" className="w-full rounded-xl bg-slate-900/50 p-3" />
       <input name="url" placeholder="URL" className="w-full rounded-xl bg-slate-900/50 p-3" />

@@ -4,13 +4,14 @@ import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { BudgetSlider } from '@/components/BudgetSlider';
 import { categoryLabels, money } from '@/lib/utils';
+import type { ProductCategory } from '@/db/schema';
 
 type Product = {
   id: number;
   title: string;
   imageUrl: string | null;
   description: string | null;
-  category: 'baut' | 'mancat' | 'facut';
+  category: string;
   priceCents: number;
   oldPriceCents: number | null;
   currency: string | null;
@@ -18,7 +19,7 @@ type Product = {
 };
 
 export default function AlegePage({ searchParams }: { searchParams: Record<string, string | undefined> }) {
-  const category = (searchParams.c as Product['category']) || 'baut';
+  const category = (searchParams.c || 'bagat_in_gura') as ProductCategory;
   const [minPrice, setMinPrice] = useState(1000);
   const [maxPrice, setMaxPrice] = useState(200000);
   const [product, setProduct] = useState<Product | null>(null);

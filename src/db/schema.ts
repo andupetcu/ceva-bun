@@ -1,7 +1,7 @@
 import { sql } from 'drizzle-orm';
 import { integer, real, sqliteTable, text } from 'drizzle-orm/sqlite-core';
 
-export const categories = ['baut', 'mancat', 'facut'] as const;
+export const categories = ['bagat_in_gura', 'de_facut', 'de_purtat', 'pentru_copii', 'de_citit', '18plus'] as const;
 export type ProductCategory = (typeof categories)[number];
 
 export const products = sqliteTable('products', {

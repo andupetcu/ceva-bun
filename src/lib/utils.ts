@@ -1,15 +1,30 @@
 import type { ProductCategory } from '@/db/schema';
 
 export const categoryLabels: Record<ProductCategory, string> = {
-  baut: 'Ceva Bun de Băut',
-  mancat: 'Ceva Bun de Mâncat',
-  facut: 'Ceva Bun de Făcut',
+  bagat_in_gura: 'De Băgat în Gură',
+  de_facut: 'De F***t',
+  de_purtat: 'De Purtat',
+  pentru_copii: 'Pentru Copii',
+  de_citit: 'De Citit',
+  '18plus': '18+',
 };
 
 export const categoryEmoji: Record<ProductCategory, string> = {
-  baut: '🍷',
-  mancat: '🍕',
-  facut: '🎯',
+  bagat_in_gura: '🍴',
+  de_facut: '🔥',
+  de_purtat: '👕',
+  pentru_copii: '👶',
+  de_citit: '📚',
+  '18plus': '🔞',
+};
+
+export const categoryGradients: Record<ProductCategory, string> = {
+  bagat_in_gura: 'from-pink-500/20 to-fuchsia-500/20',
+  de_facut: 'from-amber-500/20 to-orange-500/20',
+  de_purtat: 'from-sky-500/20 to-cyan-500/20',
+  pentru_copii: 'from-green-500/20 to-emerald-500/20',
+  de_citit: 'from-purple-500/20 to-violet-500/20',
+  '18plus': 'from-red-500/20 to-rose-500/20',
 };
 
 export const money = (priceCents: number, currency = 'RON') =>
@@ -21,7 +36,8 @@ export const money = (priceCents: number, currency = 'RON') =>
 
 export const parseCategory = (input: string | null): ProductCategory | null => {
   if (!input) return null;
-  if (input === 'baut' || input === 'mancat' || input === 'facut') return input;
+  const valid: string[] = ['bagat_in_gura', 'de_facut', 'de_purtat', 'pentru_copii', 'de_citit', '18plus'];
+  if (valid.includes(input)) return input as ProductCategory;
   return null;
 };
 

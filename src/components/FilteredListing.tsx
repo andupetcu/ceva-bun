@@ -5,11 +5,15 @@ import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { ProductCard } from '@/components/ProductCard';
 import type { Product } from '@/db/schema';
+import { categoryLabels, categoryEmoji } from '@/lib/utils';
 
-const categoryLabels: Record<string, string> = {
-  baut: '🍷 De Băut',
-  mancat: '🍕 De Mâncat',
-  facut: '🎯 De Făcut',
+const categoryLabelsMap: Record<string, string> = {
+  bagat_in_gura: '🍴 De Băgat în Gură',
+  de_facut: '🔥 De F***t',
+  de_purtat: '👕 De Purtat',
+  pentru_copii: '👶 Pentru Copii',
+  de_citit: '📚 De Citit',
+  '18plus': '🔞 18+',
 };
 
 export function FilteredListing({
@@ -74,7 +78,7 @@ export function FilteredListing({
         <h1 className="text-3xl font-bold">Toate bunăciunile</h1>
         <p className="mt-2 text-sm text-slate-300">
           {total} {total === 1 ? 'rezultat' : 'rezultate'}
-          {category ? ` în ${categoryLabels[category] || category}` : ''}
+          {category ? ` în ${categoryLabelsMap[category] || category}` : ''}
           {city ? ` · ${city}` : ''}
         </p>
       </section>
@@ -90,9 +94,12 @@ export function FilteredListing({
               className="rounded-lg border border-white/20 bg-white/10 px-3 py-2 text-sm backdrop-blur-sm"
             >
               <option value="">Toate</option>
-              <option value="baut">🍷 De Băut</option>
-              <option value="mancat">🍕 De Mâncat</option>
-              <option value="facut">🎯 De Făcut</option>
+              <option value="bagat_in_gura">🍴 De Băgat în Gură</option>
+              <option value="de_facut">🔥 De F***t</option>
+              <option value="de_purtat">👕 De Purtat</option>
+              <option value="pentru_copii">👶 Pentru Copii</option>
+              <option value="de_citit">📚 De Citit</option>
+              <option value="18plus">🔞 18+</option>
             </select>
           </div>
 
