@@ -1,18 +1,23 @@
 FROM node:20-alpine AS base
 WORKDIR /app
+RUN apk add --no-cache python3 make g++
 RUN corepack enable
 
 FROM base AS deps
 COPY package.json pnpm-lock.yaml ./
 RUN pnpm install --frozen-lockfile
+RUN cd node_modules/.pnpm/better-sqlite3@*/node_modules/better-sqlite3 && npx --yes node-gyp rebuild 2>/dev/null || pnpm rebuild better-sqlite3
 
 FROM base AS builder
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+RUN pnpm db:migrate && pnpm db:seed
 RUN pnpm build
 
-FROM base AS runner
+FROM node:20-alpine AS runner
+WORKDIR /app
 ENV NODE_ENV=production
+ENV PORT=3000
 COPY --from=builder /app/.next/standalone ./
 COPY --from=builder /app/.next/static ./.next/static
 COPY --from=builder /app/public ./public
