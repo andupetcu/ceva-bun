@@ -23,10 +23,11 @@ export function ThemeToggle() {
     <button
       type="button"
       onClick={toggle}
-      className="glass px-3 py-2 text-xs font-semibold"
+      className="glass px-3 py-2 text-lg"
       aria-label="Schimbă tema"
+      title={isDark ? 'Temă deschisă' : 'Temă închisă'}
     >
-      {isDark ? 'Temă deschisă' : 'Temă închisă'}
+      {isDark ? '☀️' : '🌙'}
     </button>
   );
 }

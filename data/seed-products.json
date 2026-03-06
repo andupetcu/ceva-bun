@@ -14,7 +14,11 @@
     "sourceUrl": "https://www.cramelerecas.ro",
     "available": true,
     "rating": 4.4,
-    "tags": ["vin", "chardonnay", "romania"],
+    "tags": [
+      "vin",
+      "chardonnay",
+      "romania"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -32,7 +36,11 @@
     "sourceUrl": "https://jidvei.ro",
     "available": true,
     "rating": 4.6,
-    "tags": ["vin", "feteasca-regala"],
+    "tags": [
+      "vin",
+      "feteasca-regala",
+      "transilvania"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -50,7 +58,11 @@
     "sourceUrl": "https://www.budureasca.ro",
     "available": true,
     "rating": 4.5,
-    "tags": ["vin", "rose"],
+    "tags": [
+      "vin",
+      "rose",
+      "bucuresti"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -68,7 +80,10 @@
     "sourceUrl": "https://zaganu.ro",
     "available": true,
     "rating": 4.3,
-    "tags": ["bere", "craft"],
+    "tags": [
+      "bere",
+      "craft"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -86,7 +101,10 @@
     "sourceUrl": "https://groundzerobeer.ro",
     "available": true,
     "rating": 4.2,
-    "tags": ["bere", "apa"],
+    "tags": [
+      "bere",
+      "apa"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -104,7 +122,10 @@
     "sourceUrl": "https://hophooligans.ro",
     "available": true,
     "rating": 4.7,
-    "tags": ["bere", "neipa"],
+    "tags": [
+      "bere",
+      "neipa"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -122,7 +143,10 @@
     "sourceUrl": "https://origo.coffee",
     "available": true,
     "rating": 4.8,
-    "tags": ["cafea", "specialty"],
+    "tags": [
+      "cafea",
+      "specialty"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -140,7 +164,10 @@
     "sourceUrl": "https://mabo.coffee",
     "available": true,
     "rating": 4.7,
-    "tags": ["cafea", "ethiopia"],
+    "tags": [
+      "cafea",
+      "ethiopia"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -158,7 +185,10 @@
     "sourceUrl": "https://palinca.ro",
     "available": true,
     "rating": 4.5,
-    "tags": ["palinca", "traditional"],
+    "tags": [
+      "palinca",
+      "traditional"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -176,7 +206,10 @@
     "sourceUrl": "https://tuica-zalau.ro",
     "available": true,
     "rating": 4.4,
-    "tags": ["tuica", "romania"],
+    "tags": [
+      "tuica",
+      "romania"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -194,7 +227,10 @@
     "sourceUrl": "https://demmers.ro",
     "available": true,
     "rating": 4.3,
-    "tags": ["ceai", "verde"],
+    "tags": [
+      "ceai",
+      "verde"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -212,7 +248,10 @@
     "sourceUrl": "https://carpathian-single-malt.ro",
     "available": true,
     "rating": 4.6,
-    "tags": ["whisky", "premium"],
+    "tags": [
+      "whisky",
+      "premium"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -230,7 +269,10 @@
     "sourceUrl": "https://artizanaldrinks.ro",
     "available": true,
     "rating": 4.1,
-    "tags": ["limonada", "artizanal"],
+    "tags": [
+      "limonada",
+      "artizanal"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -248,7 +290,10 @@
     "sourceUrl": "https://vinuridealumare.ro",
     "available": true,
     "rating": 4.8,
-    "tags": ["vin", "pachet"],
+    "tags": [
+      "vin",
+      "pachet"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -266,7 +311,10 @@
     "sourceUrl": "https://aquacarpatica.com",
     "available": true,
     "rating": 4,
-    "tags": ["apa", "healthy"],
+    "tags": [
+      "apa",
+      "healthy"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -284,7 +332,10 @@
     "sourceUrl": "https://origo.coffee",
     "available": true,
     "rating": 4.3,
-    "tags": ["cold-brew", "coffee"],
+    "tags": [
+      "cold-brew",
+      "coffee"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -302,7 +353,11 @@
     "sourceUrl": "https://kaiamo.ro",
     "available": true,
     "rating": 4.9,
-    "tags": ["restaurant", "fine-dining", "bucharest"],
+    "tags": [
+      "restaurant",
+      "fine-dining",
+      "bucuresti"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -320,7 +375,10 @@
     "sourceUrl": "https://sorolume.ro",
     "available": true,
     "rating": 4.7,
-    "tags": ["restaurant", "bucharest"],
+    "tags": [
+      "restaurant",
+      "bucuresti"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -338,7 +396,10 @@
     "sourceUrl": "https://m60.ro",
     "available": true,
     "rating": 4.4,
-    "tags": ["brunch", "coffee"],
+    "tags": [
+      "brunch",
+      "coffee"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -356,7 +417,10 @@
     "sourceUrl": "https://delaco.ro",
     "available": true,
     "rating": 4.5,
-    "tags": ["gourmet", "branza"],
+    "tags": [
+      "gourmet",
+      "branza"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -374,7 +438,10 @@
     "sourceUrl": "https://apidava.ro",
     "available": true,
     "rating": 4.6,
-    "tags": ["miere", "romanesc"],
+    "tags": [
+      "miere",
+      "romanesc"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -392,7 +459,10 @@
     "sourceUrl": "https://produse-traditionale.ro",
     "available": true,
     "rating": 4.2,
-    "tags": ["carne", "traditie"],
+    "tags": [
+      "carne",
+      "traditie"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -410,7 +480,10 @@
     "sourceUrl": "https://camaradinfata.ro",
     "available": true,
     "rating": 4.4,
-    "tags": ["zacusca", "vegan"],
+    "tags": [
+      "zacusca",
+      "vegan"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -428,7 +501,10 @@
     "sourceUrl": "https://slowfood.ro",
     "available": true,
     "rating": 4.7,
-    "tags": ["picnic", "gourmet"],
+    "tags": [
+      "picnic",
+      "gourmet"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -446,7 +522,10 @@
     "sourceUrl": "https://fitfoodway.ro",
     "available": true,
     "rating": 4.3,
-    "tags": ["subscription", "healthy"],
+    "tags": [
+      "subscription",
+      "healthy"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -464,7 +543,10 @@
     "sourceUrl": "https://bucatedeacasa.ro",
     "available": true,
     "rating": 4.1,
-    "tags": ["sarmale", "traditional"],
+    "tags": [
+      "sarmale",
+      "traditional"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -482,7 +564,10 @@
     "sourceUrl": "https://mamizzapizza.ro",
     "available": true,
     "rating": 4.5,
-    "tags": ["pizza", "restaurant"],
+    "tags": [
+      "pizza",
+      "restaurant"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -500,7 +585,10 @@
     "sourceUrl": "https://dealegurilor.ro",
     "available": true,
     "rating": 4.6,
-    "tags": ["delicatese", "transilvania"],
+    "tags": [
+      "delicatese",
+      "transilvania"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -518,7 +606,10 @@
     "sourceUrl": "https://sweetbox.ro",
     "available": true,
     "rating": 4.2,
-    "tags": ["desert", "cadou"],
+    "tags": [
+      "desert",
+      "cadou"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -536,7 +627,10 @@
     "sourceUrl": "https://burgeria.ro",
     "available": true,
     "rating": 4.3,
-    "tags": ["burger", "tasting"],
+    "tags": [
+      "burger",
+      "tasting"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -554,7 +648,10 @@
     "sourceUrl": "https://ateliercucina.ro",
     "available": true,
     "rating": 4.8,
-    "tags": ["workshop", "culinar"],
+    "tags": [
+      "workshop",
+      "culinar"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -572,7 +669,10 @@
     "sourceUrl": "https://brunchbox.ro",
     "available": true,
     "rating": 4.1,
-    "tags": ["brunch", "delivery"],
+    "tags": [
+      "brunch",
+      "delivery"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -590,7 +690,10 @@
     "sourceUrl": "https://captive.ro",
     "available": true,
     "rating": 4.8,
-    "tags": ["escape-room", "bucharest"],
+    "tags": [
+      "escape-room",
+      "bucuresti"
+    ],
     "sourceType": "affiliate",
     "lat": 44.434,
     "lng": 26.102
@@ -610,7 +713,11 @@
     "sourceUrl": "https://escapecentral.ro",
     "available": true,
     "rating": 4.9,
-    "tags": ["escape-room", "activity"],
+    "tags": [
+      "escape-room",
+      "activity",
+      "bucuresti"
+    ],
     "sourceType": "affiliate",
     "lat": 44.441,
     "lng": 26.096
@@ -630,7 +737,11 @@
     "sourceUrl": "https://www.tnb.ro",
     "available": true,
     "rating": 4.6,
-    "tags": ["teatru", "cultura"],
+    "tags": [
+      "teatru",
+      "cultura",
+      "bucuresti"
+    ],
     "sourceType": "affiliate",
     "lat": 44.4365,
     "lng": 26.1021
@@ -650,7 +761,11 @@
     "sourceUrl": "https://antipa.ro",
     "available": true,
     "rating": 4.7,
-    "tags": ["muzeu", "familie"],
+    "tags": [
+      "muzeu",
+      "familie",
+      "bucuresti"
+    ],
     "sourceType": "affiliate",
     "lat": 44.4545,
     "lng": 26.0855
@@ -670,7 +785,11 @@
     "sourceUrl": "https://climbagain.ro",
     "available": true,
     "rating": 4.5,
-    "tags": ["sport", "indoor"],
+    "tags": [
+      "sport",
+      "indoor",
+      "bucuresti"
+    ],
     "sourceType": "affiliate",
     "lat": 44.407,
     "lng": 26.105
@@ -690,7 +809,11 @@
     "sourceUrl": "https://atelierceramica.ro",
     "available": true,
     "rating": 4.8,
-    "tags": ["workshop", "creative"],
+    "tags": [
+      "workshop",
+      "creative",
+      "bucuresti"
+    ],
     "sourceType": "affiliate",
     "lat": 44.4305,
     "lng": 26.121
@@ -710,7 +833,11 @@
     "sourceUrl": "https://vinoteca.ro",
     "available": true,
     "rating": 4.6,
-    "tags": ["wine-tasting", "experience"],
+    "tags": [
+      "wine-tasting",
+      "experience",
+      "bucuresti"
+    ],
     "sourceType": "affiliate",
     "lat": 44.445,
     "lng": 26.098
@@ -730,7 +857,11 @@
     "sourceUrl": "https://operanb.ro",
     "available": true,
     "rating": 4.7,
-    "tags": ["opera", "cultura"],
+    "tags": [
+      "opera",
+      "cultura",
+      "bucuresti"
+    ],
     "sourceType": "affiliate",
     "lat": 44.4376,
     "lng": 26.0747
@@ -750,7 +881,11 @@
     "sourceUrl": "https://greenadventures.ro",
     "available": true,
     "rating": 4.4,
-    "tags": ["outdoor", "bike"],
+    "tags": [
+      "outdoor",
+      "bike",
+      "bucuresti"
+    ],
     "sourceType": "affiliate",
     "lat": 44.401,
     "lng": 26.122
@@ -770,7 +905,11 @@
     "sourceUrl": "https://mountaintrip.ro",
     "available": true,
     "rating": 4.9,
-    "tags": ["via-ferrata", "adventure"],
+    "tags": [
+      "via-ferrata",
+      "adventure",
+      "brasov"
+    ],
     "sourceType": "affiliate",
     "lat": 46.55,
     "lng": 23.71
@@ -790,7 +929,11 @@
     "sourceUrl": "https://urbanphoto.ro",
     "available": true,
     "rating": 4.3,
-    "tags": ["foto", "workshop"],
+    "tags": [
+      "foto",
+      "workshop",
+      "bucuresti"
+    ],
     "sourceType": "affiliate",
     "lat": 44.432,
     "lng": 26.103
@@ -810,7 +953,11 @@
     "sourceUrl": "https://paintnight.ro",
     "available": true,
     "rating": 4.5,
-    "tags": ["art", "social"],
+    "tags": [
+      "art",
+      "social",
+      "bucuresti"
+    ],
     "sourceType": "affiliate",
     "lat": 44.437,
     "lng": 26.111
@@ -830,7 +977,11 @@
     "sourceUrl": "https://elvirepopesco.ro",
     "available": true,
     "rating": 4.2,
-    "tags": ["cinema", "abonament"],
+    "tags": [
+      "cinema",
+      "abonament",
+      "bucuresti"
+    ],
     "sourceType": "affiliate",
     "lat": 44.447,
     "lng": 26.097
@@ -850,7 +1001,11 @@
     "sourceUrl": "https://buchareststreetart.ro",
     "available": true,
     "rating": 4.4,
-    "tags": ["tour", "urban"],
+    "tags": [
+      "tour",
+      "urban",
+      "bucuresti"
+    ],
     "sourceType": "affiliate",
     "lat": 44.431,
     "lng": 26.109
@@ -870,7 +1025,11 @@
     "sourceUrl": "https://hikehub.ro",
     "available": true,
     "rating": 4.8,
-    "tags": ["hiking", "outdoor"],
+    "tags": [
+      "hiking",
+      "outdoor",
+      "brasov"
+    ],
     "sourceType": "affiliate",
     "lat": 45.55,
     "lng": 25.24
@@ -890,7 +1049,11 @@
     "sourceUrl": "https://cocktailschool.ro",
     "available": true,
     "rating": 4.7,
-    "tags": ["cocktail", "workshop"],
+    "tags": [
+      "cocktail",
+      "workshop",
+      "bucuresti"
+    ],
     "sourceType": "affiliate",
     "lat": 44.439,
     "lng": 26.106
@@ -910,7 +1073,10 @@
     "sourceUrl": "https://hanulberarilor.ro",
     "available": true,
     "rating": 4.3,
-    "tags": ["traditional", "brunch"],
+    "tags": [
+      "traditional",
+      "brunch"
+    ],
     "sourceType": "affiliate"
   },
   {
@@ -928,7 +1094,12 @@
     "sourceUrl": "https://kayakbucharest.ro",
     "available": true,
     "rating": 4.4,
-    "tags": ["outdoor", "kayak", "bucharest"],
+    "tags": [
+      "outdoor",
+      "kayak",
+      "cluj",
+      "bucuresti"
+    ],
     "sourceType": "affiliate",
     "lat": 44.475,
     "lng": 26.078
