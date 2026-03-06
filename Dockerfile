@@ -11,7 +11,7 @@ RUN cd node_modules/.pnpm/better-sqlite3@*/node_modules/better-sqlite3 && npx --
 FROM base AS builder
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-RUN pnpm db:migrate && pnpm db:seed
+RUN mkdir -p db && pnpm db:migrate && pnpm db:seed
 RUN pnpm build
 
 FROM node:20-alpine AS runner
