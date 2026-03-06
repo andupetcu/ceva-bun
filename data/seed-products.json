@@ -36,96 +36,6 @@
     ]
   },
   {
-    "title": "Ceai Mate, Bio, 90g, Sonnentor",
-    "description": "ceaiuri maté",
-    "category": "bagat_in_gura",
-    "priceCents": 1335,
-    "oldPriceCents": 2670,
-    "currency": "RON",
-    "imageUrl": "https://procash.r.worldssl.net/images/products/yj/5375-46624.png",
-    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=9600bdd3d&aff_code=fd9130a9e&campaign_unique=f2d6169d1",
-    "sourceName": "vitamix.ro",
-    "sourceType": "affiliate",
-    "available": true,
-    "rating": 4.1,
-    "tags": [
-      "bagat_in_gura",
-      "vitamix"
-    ]
-  },
-  {
-    "title": "Green Granola Ecologica/Bio 200g",
-    "description": "NIAVIS",
-    "category": "bagat_in_gura",
-    "priceCents": 1770,
-    "oldPriceCents": 2950,
-    "currency": "RON",
-    "imageUrl": "https://cdn.vegis.ro/images/products/img_202406171514/134357/full/niavis-green-granola-ecologica-bio-200g-295785.png",
-    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=9791450f0&aff_code=fd9130a9e&campaign_unique=861f9e301",
-    "sourceName": "vitamix.ro",
-    "sourceType": "affiliate",
-    "available": true,
-    "rating": 4.1,
-    "tags": [
-      "bagat_in_gura",
-      "vitamix"
-    ]
-  },
-  {
-    "title": "Silfide Complex de Slabit Forte 100cpr + Ceai de Slabit 30 plicuri",
-    "description": "ALEVIA",
-    "category": "bagat_in_gura",
-    "priceCents": 7537,
-    "oldPriceCents": 10050,
-    "currency": "RON",
-    "imageUrl": "https://cdn.vegis.ro/images/products/img_201611250935/19057/full/alevia-silfide-complex-de-slabit-forte-100cpr-plus-ceai-de-slabit-30plicuri-131806.jpg",
-    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=73d45b128&aff_code=fd9130a9e&campaign_unique=861f9e301",
-    "sourceName": "vitamix.ro",
-    "sourceType": "affiliate",
-    "available": true,
-    "rating": 4.9,
-    "tags": [
-      "bagat_in_gura",
-      "vitamix"
-    ]
-  },
-  {
-    "title": "Miere de Manuka MGO 400+ RAW 250g",
-    "description": "WEDDERSPOON",
-    "category": "bagat_in_gura",
-    "priceCents": 16871,
-    "oldPriceCents": 22495,
-    "currency": "RON",
-    "imageUrl": "https://cdn.vegis.ro/images/products/img_202406171514/139393/full/wedderspoon-miere-de-manuka-mgo-400-plus-raw-250g-306315.png",
-    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=6a7622f2d&aff_code=fd9130a9e&campaign_unique=861f9e301",
-    "sourceName": "vitamix.ro",
-    "sourceType": "affiliate",
-    "available": true,
-    "rating": 4.2,
-    "tags": [
-      "bagat_in_gura",
-      "vitamix"
-    ]
-  },
-  {
-    "title": "Seminte de In 1kg",
-    "description": "SANOVITA",
-    "category": "bagat_in_gura",
-    "priceCents": 2177,
-    "oldPriceCents": 2902,
-    "currency": "RON",
-    "imageUrl": "https://cdn.vegis.ro/images/products/img1/5418/full/sanovita-seminte-de-in-1kg-36130.jpeg",
-    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=800c2f1f4&aff_code=fd9130a9e&campaign_unique=861f9e301",
-    "sourceName": "vitamix.ro",
-    "sourceType": "affiliate",
-    "available": true,
-    "rating": 4.3,
-    "tags": [
-      "bagat_in_gura",
-      "vitamix"
-    ]
-  },
-  {
     "title": "Pantofi sport cu broderii si decupaje - Negru",
     "description": "Big Star",
     "category": "de_purtat",
@@ -1369,6 +1279,276 @@
       "de_facut",
       "tasting",
       "bucuresti"
+    ]
+  },
+  {
+    "title": "Cornulete Cu Fructe De Padure 240g, Nutri Free",
+    "description": "dulciuri, patiserii fara gluten",
+    "category": "bagat_in_gura",
+    "priceCents": 2034,
+    "oldPriceCents": 3390,
+    "currency": "RON",
+    "imageUrl": "https://procash.r.worldssl.net/images/products/dt/d1bf-47829.png",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=9acf9459a&aff_code=fd9130a9e&campaign_unique=f2d6169d1",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.7,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Musli cu Chia si Cocos Ecologic/Bio 200g",
+    "description": "NIAVIS",
+    "category": "bagat_in_gura",
+    "priceCents": 1494,
+    "oldPriceCents": 2490,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_202203141045/53726/full/niavis-musli-cu-chia-si-cocos-ecologic-bio-200g-283269.png",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=d2b0c0b6e&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.0,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Crema de Fistic (20%) fara Gluten 180g",
+    "description": "SANOVITA",
+    "category": "bagat_in_gura",
+    "priceCents": 3023,
+    "oldPriceCents": 4650,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_202203141045/4602/full/sanovita-crema-de-fistic-20-180g-159651.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=e283fa36a&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.3,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Pufuleti cu Arahide Ecologici/Bio 115g",
+    "description": "DENNREE",
+    "category": "bagat_in_gura",
+    "priceCents": 1170,
+    "oldPriceCents": 1671,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_202203141045/110053/full/dennree-pufuleti-cu-arahide-243821.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=0e50ea94d&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.5,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Miere de Manuka MGO 400+ RAW 250g",
+    "description": "WEDDERSPOON",
+    "category": "bagat_in_gura",
+    "priceCents": 16871,
+    "oldPriceCents": 22495,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_202406171514/139393/full/wedderspoon-miere-de-manuka-mgo-400-plus-raw-250g-306315.png",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=6a7622f2d&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.5,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Miere de Salcam cu Fulgi de Aur 300g",
+    "description": "APILAND",
+    "category": "bagat_in_gura",
+    "priceCents": 8280,
+    "oldPriceCents": 10350,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_202406171514/39341/full/apiland-miere-de-salcam-cu-fulgi-de-aur-300g-330109.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=a1ba5c22e&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.9,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Pachet Faina Alba de Grau Spelta Ecologica/Bio 1kg+1kg",
+    "description": "PRONAT",
+    "category": "bagat_in_gura",
+    "priceCents": 3461,
+    "oldPriceCents": 4170,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_202203141045/132403/full/pronat-pachet-faina-alba-de-grau-spelta-ecologica-bio-1kg-plus1kg-291921.png",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=b85fb01ab&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.1,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Ceai Distonoplant (N169) 20dz",
+    "description": "FARES",
+    "category": "bagat_in_gura",
+    "priceCents": 1005,
+    "oldPriceCents": 1183,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_201611250935/41533/full/fares-ceai-distonoplant-n169-20dz-91647.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=85a479725&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.3,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Zaharina 100 Cpr",
+    "description": "ALEVIA",
+    "category": "bagat_in_gura",
+    "priceCents": 1266,
+    "oldPriceCents": 1490,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_201611250935/4411/full/alevia-zaharina-100-cpr-78433.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=0207a3902&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.5,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Extract Pur de Menta 50ml",
+    "description": "CLOUD&nbsp;NINE&nbsp;FACTORY™",
+    "category": "bagat_in_gura",
+    "priceCents": 2640,
+    "oldPriceCents": 3106,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_201611250935/25999/full/green-sense-extract-pur-de-menta-50ml-61429.png",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=257c64dfa&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.2,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Propolis Glicolic Picaturi 100ml",
+    "description": "QUANTUM&nbsp;PHARM",
+    "category": "bagat_in_gura",
+    "priceCents": 5464,
+    "oldPriceCents": 6428,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_202203141045/74841/full/quantum-pharm-propolis-glicolic-picaturi-100ml-199881.png",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=b201f002c&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.9,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Apielixir Sanatatea Cailor Respiratorii 10 fiole x 10ml",
+    "description": "ALBINA&nbsp;CARPATINA",
+    "category": "bagat_in_gura",
+    "priceCents": 6622,
+    "oldPriceCents": 7790,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_201611250935/46777/full/albina-carpatina-apielixir-sanatatea-cailor-respiratorii-10-fiole-x-10ml-99427.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=940baf27b&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.7,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Ceai Amestec de Plante Voie Buna Ecologic/Bio 50g",
+    "description": "SONNENTOR",
+    "category": "bagat_in_gura",
+    "priceCents": 2542,
+    "oldPriceCents": 2990,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_201611250935/57111/full/sonnentor-ceai-amestec-de-plante-voie-buna-ecologic-bio-50g-125666.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=5fa9a805f&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.7,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Pachet Propolis Esenta 3x50ml",
+    "description": "PHENALEX",
+    "category": "bagat_in_gura",
+    "priceCents": 9022,
+    "oldPriceCents": 10491,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_202406171514/132405/full/phenalex-pachet-propolis-esenta-3x50ml-308267.png",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=7dcb1c645&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.9,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Nuci Braziliene Ecologice/Bio 250g",
+    "description": "OBIO",
+    "category": "bagat_in_gura",
+    "priceCents": 8076,
+    "oldPriceCents": 9177,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_202203141045/7057/full/obio-nuci-braziliene-ecologice-bio-250g-152209.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=90c2cba0c&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.5,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
     ]
   }
 ]
