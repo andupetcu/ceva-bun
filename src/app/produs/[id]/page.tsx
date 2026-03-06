@@ -2,9 +2,39 @@ export const dynamic = 'force-dynamic';
 
 import { eq } from 'drizzle-orm';
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
 import { db } from '@/db';
 import { products } from '@/db/schema';
 import { money } from '@/lib/utils';
+
+const categoryNames: Record<string, string> = {
+  bagat_in_gura: 'De Băgat în Gură',
+  de_facut: 'De F***t',
+  de_purtat: 'De Purtat',
+  pentru_copii: 'Pentru Copii',
+  de_citit: 'De Citit',
+  '18plus': '18+',
+};
+
+export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+  const id = Number(params.id);
+  const product = await db.query.products.findFirst({ where: eq(products.id, id) });
+  if (!product) return { title: 'Produs negăsit' };
+
+  const catName = categoryNames[product.category] || product.category;
+  const price = money(product.priceCents, product.currency || 'RON');
+
+  return {
+    title: product.title,
+    description: `${product.title} — ${price}. ${catName} pe Ceva Bun.`,
+    openGraph: {
+      title: product.title,
+      description: `${product.title} — ${price}`,
+      images: product.imageUrl ? [{ url: product.imageUrl, alt: product.title }] : [],
+      type: 'website',
+    },
+  };
+}
 
 export default async function ProductPage({ params }: { params: { id: string } }) {
   const id = Number(params.id);
@@ -20,6 +50,25 @@ export default async function ProductPage({ params }: { params: { id: string } }
 
   return (
     <main className="glass grid gap-6 p-6 md:grid-cols-[320px_1fr]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Product',
+            name: product.title,
+            description: product.description || product.title,
+            image: product.imageUrl || undefined,
+            offers: {
+              '@type': 'Offer',
+              price: (product.priceCents / 100).toFixed(2),
+              priceCurrency: product.currency || 'RON',
+              availability: 'https://schema.org/InStock',
+              url: outboundUrl !== '#' ? outboundUrl : `https://ceva-bun.ro/produs/${product.id}`,
+            },
+          }),
+        }}
+      />
       {product.imageUrl ? (
         <img src={product.imageUrl} alt={product.title} className="h-80 w-full rounded-2xl object-cover" />
       ) : (
