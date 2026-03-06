@@ -14,6 +14,10 @@ export default async function ProductPage({ params }: { params: { id: string } }
     notFound();
   }
 
+  const outboundUrl = product.affiliateUrl && !product.affiliateUrl.includes('placeholder')
+    ? product.affiliateUrl
+    : product.productUrl || '#';
+
   return (
     <main className="glass grid gap-6 p-6 md:grid-cols-[320px_1fr]">
       {product.imageUrl ? (
@@ -31,21 +35,14 @@ export default async function ProductPage({ params }: { params: { id: string } }
         </div>
         {product.description ? <p className="text-slate-200/90">{product.description}</p> : null}
         <p className="text-sm text-slate-300">Sursă: {product.sourceName || 'Ceva Bun'}</p>
-        <div className="flex flex-wrap gap-3">
-          <a
-            href={product.affiliateUrl || '#affiliate-placeholder'}
-            target="_blank"
-            rel="noreferrer"
-            className="rounded-xl bg-emerald-500 px-5 py-3 font-semibold text-slate-950"
-          >
-            Mergi la ofertă
-          </a>
-          {product.productUrl ? (
-            <a href={product.productUrl} target="_blank" rel="noreferrer" className="rounded-xl border border-white/30 px-5 py-3">
-              Pagina produsului
-            </a>
-          ) : null}
-        </div>
+        <a
+          href={outboundUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="inline-block rounded-xl bg-emerald-500 px-6 py-3 font-semibold text-slate-950 hover:bg-emerald-400 transition-colors"
+        >
+          Mergi la ofertă →
+        </a>
       </div>
     </main>
   );
