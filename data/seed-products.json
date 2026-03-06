@@ -1,63 +1,1374 @@
 [
-  {"title":"Cramele Recaș Sole Chardonnay","description":"Vin alb sec, note de fructe tropicale și vanilie","category":"bagat_in_gura","priceCents":4599,"oldPriceCents":5799,"currency":"RON","imageUrl":"https://picsum.photos/seed/wine1/600/400","productUrl":"https://www.cramelerecas.ro","sourceName":"Cramele Recaș","sourceType":"affiliate","available":true,"rating":4.6,"tags":["vin","chardonnay","romanesc","timisoara"]},
-  {"title":"Jidvei Owner's Choice Fetească Regală","description":"Vin alb demisec din inima Transilvaniei","category":"bagat_in_gura","priceCents":6999,"oldPriceCents":8499,"currency":"RON","imageUrl":"https://picsum.photos/seed/wine2/600/400","productUrl":"https://jidvei.ro","sourceName":"Jidvei","sourceType":"affiliate","available":true,"rating":4.5,"tags":["vin","feteasca-regala","transilvania"]},
-  {"title":"Zăganu India Pale Ale","description":"Bere artizanală cu hamei american, aromă intensă de citrice","category":"bagat_in_gura","priceCents":1499,"oldPriceCents":1799,"currency":"RON","imageUrl":"https://picsum.photos/seed/beer1/600/400","productUrl":"https://groundzerobeer.ro","sourceName":"Ground Zero","sourceType":"affiliate","available":true,"rating":4.7,"tags":["bere","craft","neipa","brasov"]},
-  {"title":"Cafea de specialitate Origo Espresso Blend","description":"Blend de specialty coffee, prăjire medie, note de ciocolată","category":"bagat_in_gura","priceCents":4599,"oldPriceCents":4999,"currency":"RON","imageUrl":"https://picsum.photos/seed/coffee1/600/400","productUrl":"https://origo.coffee","sourceName":"Origo","sourceType":"affiliate","available":true,"rating":4.8,"tags":["cafea","specialty","coffee","bucuresti"]},
-  {"title":"Palincă de prune Maramureș","description":"Palincă tradițională, dublu distilată, 50%","category":"bagat_in_gura","priceCents":12999,"oldPriceCents":14999,"currency":"RON","imageUrl":"https://picsum.photos/seed/palinca/600/400","sourceName":"Palinca Maramureș","sourceType":"affiliate","available":true,"rating":4.9,"tags":["palinca","traditional","romania"]},
-  {"title":"Țuică de Zalău Premium","description":"Țuică premium din prune românești, maturată în butoi","category":"bagat_in_gura","priceCents":8999,"oldPriceCents":9999,"currency":"RON","imageUrl":"https://picsum.photos/seed/tuica/600/400","sourceName":"Distileria Zalău","sourceType":"affiliate","available":true,"rating":4.4,"tags":["tuica","traditional","romanesc"]},
-  {"title":"Ceai Demmers Sencha Green","description":"Ceai verde japonez, note proaspete și delicate","category":"bagat_in_gura","priceCents":2699,"oldPriceCents":3199,"currency":"RON","imageUrl":"https://picsum.photos/seed/tea1/600/400","sourceName":"Demmers","sourceType":"affiliate","available":true,"rating":4.3,"tags":["ceai","verde","healthy"]},
-  {"title":"Whisky Single Malt Carpathian","description":"Single malt românesc, maturat 5 ani","category":"bagat_in_gura","priceCents":23999,"oldPriceCents":26999,"currency":"RON","imageUrl":"https://picsum.photos/seed/whisky/600/400","sourceName":"Carpathian Distillery","sourceType":"affiliate","available":true,"rating":4.7,"tags":["whisky","premium","romanesc"]},
-  {"title":"Degustare meniu 7 feluri la Kaiamo","description":"Experiență culinară completă cu meniu degustare sezonier","category":"bagat_in_gura","priceCents":65000,"oldPriceCents":75000,"currency":"RON","imageUrl":"https://picsum.photos/seed/food1/600/400","sourceName":"Kaiamo","sourceType":"manual","available":true,"rating":4.8,"tags":["restaurant","fine-dining","bucuresti"]},
-  {"title":"Cină urbană la Soro Lume","description":"Fine dining cu ingrediente locale și prezentare modernă","category":"bagat_in_gura","priceCents":42000,"oldPriceCents":48000,"currency":"RON","imageUrl":"https://picsum.photos/seed/food2/600/400","productUrl":"https://sorolume.ro","sourceName":"Soro Lume","sourceType":"manual","available":true,"rating":4.6,"tags":["restaurant","gourmet","bucuresti"]},
-  {"title":"Brunch premium la M60","description":"Brunch complet cu preparate de autor","category":"bagat_in_gura","priceCents":9500,"oldPriceCents":11000,"currency":"RON","imageUrl":"https://picsum.photos/seed/food3/600/400","productUrl":"https://m60.ro","sourceName":"M60","sourceType":"manual","available":true,"rating":4.5,"tags":["brunch","restaurant","bucuresti"]},
-  {"title":"Pachet brânzeturi artizanale Delaco Select","description":"Selecție de 5 brânzeturi românești premium","category":"bagat_in_gura","priceCents":13999,"oldPriceCents":16999,"currency":"RON","imageUrl":"https://picsum.photos/seed/food4/600/400","productUrl":"https://delaco.ro","sourceName":"Delaco","sourceType":"affiliate","available":true,"rating":4.4,"tags":["branza","gourmet","artizanal"]},
-  {"title":"Miere crudă de salcâm Apidava","description":"Miere premium nepasteurizată din zona Banatului","category":"bagat_in_gura","priceCents":3499,"oldPriceCents":3999,"currency":"RON","imageUrl":"https://picsum.photos/seed/honey/600/400","productUrl":"https://apidava.ro","sourceName":"Apidava","sourceType":"affiliate","available":true,"rating":4.7,"tags":["miere","natural","healthy"]},
-  {"title":"Sarmale gourmet la borcan","description":"Sarmale tradiționale în foi de viță, gata de încălzit","category":"bagat_in_gura","priceCents":3799,"oldPriceCents":4399,"currency":"RON","imageUrl":"https://picsum.photos/seed/sarmale/600/400","sourceName":"Bucate de Acasă","sourceType":"affiliate","available":true,"rating":4.5,"tags":["sarmale","traditional","gourmet"]},
-  {"title":"Cutie cu zacuscă artizanală","description":"Zacuscă de casă cu ardei copți și vinete","category":"bagat_in_gura","priceCents":4999,"oldPriceCents":5999,"currency":"RON","imageUrl":"https://picsum.photos/seed/zacusca/600/400","sourceName":"Artisan Foods","sourceType":"affiliate","available":true,"rating":4.3,"tags":["zacusca","traditional","artizanal"]},
-
-  {"title":"Escape Room The Heist la Captive","description":"Jefuiește seiful într-o oră. 2-6 jucători.","category":"de_facut","priceCents":20000,"oldPriceCents":25000,"priceSuffix":"lei/grup","currency":"RON","imageUrl":"https://picsum.photos/seed/escape1/600/400","productUrl":"https://captive.ro","sourceName":"Captive","sourceType":"affiliate","available":true,"rating":4.8,"tags":["escape-room","indoor","bucuresti"]},
-  {"title":"Escape Room Laboratorul Secret","description":"Rezolvă puzzle-uri științifice. 2-5 jucători.","category":"de_facut","priceCents":18000,"oldPriceCents":22000,"priceSuffix":"lei/grup","currency":"RON","imageUrl":"https://picsum.photos/seed/escape2/600/400","productUrl":"https://escapecentral.ro","sourceName":"Escape Central","sourceType":"affiliate","available":true,"rating":4.7,"tags":["escape-room","indoor","bucuresti"]},
-  {"title":"Spectacol la Teatrul Național","description":"Experiență teatrală la cel mai prestigios teatru din țară","category":"de_facut","priceCents":7500,"oldPriceCents":9000,"priceSuffix":"lei/persoană","currency":"RON","imageUrl":"https://picsum.photos/seed/theater/600/400","productUrl":"https://www.tnb.ro","sourceName":"TNB","sourceType":"manual","available":true,"rating":4.6,"tags":["teatru","cultura","bucuresti"]},
-  {"title":"Vizită la Muzeul Antipa","description":"Descoperă lumea naturală într-un muzeu fascinant","category":"de_facut","priceCents":2000,"oldPriceCents":2500,"priceSuffix":"lei/persoană","currency":"RON","imageUrl":"https://picsum.photos/seed/museum/600/400","productUrl":"https://antipa.ro","sourceName":"Muzeul Antipa","sourceType":"manual","available":true,"rating":4.5,"tags":["muzeu","cultura","familie","bucuresti"]},
-  {"title":"Via Ferrata la Cheile Grădiștei","description":"Cățărare pe traseu via ferrata cu echipament inclus","category":"de_facut","priceCents":15000,"oldPriceCents":18000,"priceSuffix":"lei/persoană","currency":"RON","imageUrl":"https://picsum.photos/seed/ferrata/600/400","productUrl":"https://climbagain.ro","sourceName":"Climb Again","sourceType":"affiliate","available":true,"rating":4.9,"tags":["via-ferrata","outdoor","adventure","brasov"]},
-  {"title":"Operă la ONB","description":"Seară la Opera Națională București","category":"de_facut","priceCents":10000,"oldPriceCents":12000,"priceSuffix":"lei/persoană","currency":"RON","imageUrl":"https://picsum.photos/seed/opera/600/400","productUrl":"https://operanb.ro","sourceName":"Opera Națională","sourceType":"manual","available":true,"rating":4.7,"tags":["opera","cultura","bucuresti"]},
-  {"title":"Drumeție Piatra Craiului cu ghid","description":"Tur de o zi cu ghid montan autorizat","category":"de_facut","priceCents":20000,"oldPriceCents":25000,"priceSuffix":"lei/persoană","currency":"RON","imageUrl":"https://picsum.photos/seed/hike/600/400","productUrl":"https://mountaintrip.ro","sourceName":"Mountain Trip","sourceType":"affiliate","available":true,"rating":4.8,"tags":["hiking","outdoor","adventure","brasov"]},
-  {"title":"Workshop ceramică pentru începători","description":"Creează propria ceașcă într-un atelier ghidat","category":"de_facut","priceCents":18000,"oldPriceCents":22000,"priceSuffix":"lei/persoană","currency":"RON","imageUrl":"https://picsum.photos/seed/ceramic/600/400","sourceName":"Atelier Ceramica","sourceType":"manual","available":true,"rating":4.6,"tags":["workshop","creative","art","bucuresti"]},
-  {"title":"Degustare de vin cu somelier","description":"Degustă 6 vinuri premium cu explicații de expert","category":"de_facut","priceCents":25000,"oldPriceCents":30000,"priceSuffix":"lei/persoană","currency":"RON","imageUrl":"https://picsum.photos/seed/winetasting/600/400","sourceName":"Vinoteca","sourceType":"manual","available":true,"rating":4.7,"tags":["wine-tasting","tasting","experience","bucuresti"]},
-
-  {"title":"Geacă puf The North Face Nuptse","description":"Geacă iconică cu puf de gâscă, caldă și ușoară","category":"de_purtat","priceCents":89999,"oldPriceCents":109999,"currency":"RON","imageUrl":"https://picsum.photos/seed/jacket1/600/400","sourceName":"The North Face","sourceType":"affiliate","available":true,"rating":4.8,"tags":["geaca","iarna","premium","outdoor"]},
-  {"title":"Sneakers Nike Air Max 90","description":"Clasicul sneaker Nike în ediție actualizată","category":"de_purtat","priceCents":59999,"oldPriceCents":69999,"currency":"RON","imageUrl":"https://picsum.photos/seed/sneakers1/600/400","sourceName":"Nike","sourceType":"affiliate","available":true,"rating":4.7,"tags":["sneakers","sport","casual"]},
-  {"title":"Ceas Casio G-Shock GA-2100","description":"Ceas rezistent la șocuri, design minimalist","category":"de_purtat","priceCents":44999,"oldPriceCents":54999,"currency":"RON","imageUrl":"https://picsum.photos/seed/watch1/600/400","sourceName":"Casio","sourceType":"affiliate","available":true,"rating":4.6,"tags":["ceas","casual","rezistent"]},
-  {"title":"Rucsac Fjällräven Kånken","description":"Rucsac iconic suedez, durabil și practic","category":"de_purtat","priceCents":39999,"oldPriceCents":44999,"currency":"RON","imageUrl":"https://picsum.photos/seed/backpack1/600/400","sourceName":"Fjällräven","sourceType":"affiliate","available":true,"rating":4.5,"tags":["rucsac","casual","urban"]},
-  {"title":"Ochelari de soare Ray-Ban Wayfarer","description":"Model clasic, lentile polarizate","category":"de_purtat","priceCents":64999,"oldPriceCents":74999,"currency":"RON","imageUrl":"https://picsum.photos/seed/sunglasses/600/400","sourceName":"Ray-Ban","sourceType":"affiliate","available":true,"rating":4.7,"tags":["ochelari","soare","premium"]},
-  {"title":"Tricou organic din bumbac românesc","description":"Tricou unisex, bumbac 100% organic, produs local","category":"de_purtat","priceCents":14999,"oldPriceCents":17999,"currency":"RON","imageUrl":"https://picsum.photos/seed/tshirt1/600/400","sourceName":"Local Brand","sourceType":"affiliate","available":true,"rating":4.3,"tags":["tricou","organic","romanesc","sustainable"]},
-  {"title":"Adidași New Balance 574","description":"Confort zilnic, design retro","category":"de_purtat","priceCents":49999,"oldPriceCents":57999,"currency":"RON","imageUrl":"https://picsum.photos/seed/nb574/600/400","sourceName":"New Balance","sourceType":"affiliate","available":true,"rating":4.6,"tags":["sneakers","retro","casual"]},
-  {"title":"Eșarfă din lână merinos","description":"Eșarfă caldă și moale, 100% lână merinos","category":"de_purtat","priceCents":19999,"oldPriceCents":24999,"currency":"RON","imageUrl":"https://picsum.photos/seed/scarf/600/400","sourceName":"Wool & Co","sourceType":"affiliate","available":true,"rating":4.4,"tags":["esarfa","lana","iarna","premium"]},
-
-  {"title":"Set LEGO Technic Ferrari Daytona","description":"2778 piese, model de colecție pentru constructori pasionați","category":"pentru_copii","priceCents":89999,"oldPriceCents":99999,"currency":"RON","imageUrl":"https://picsum.photos/seed/lego1/600/400","sourceName":"LEGO","sourceType":"affiliate","available":true,"rating":4.9,"tags":["lego","constructii","cadou"]},
-  {"title":"Tabletă de desen LCD pentru copii","description":"Tabletă de scris și desenat, fără cerneală, reutilizabilă","category":"pentru_copii","priceCents":4999,"oldPriceCents":6999,"currency":"RON","imageUrl":"https://picsum.photos/seed/tablet1/600/400","sourceName":"KidTech","sourceType":"affiliate","available":true,"rating":4.4,"tags":["desen","creative","educativ"]},
-  {"title":"Joc de societate Ticket to Ride Europe","description":"Construiește rute de tren prin Europa, 2-5 jucători","category":"pentru_copii","priceCents":17999,"oldPriceCents":21999,"currency":"RON","imageUrl":"https://picsum.photos/seed/boardgame1/600/400","sourceName":"Days of Wonder","sourceType":"affiliate","available":true,"rating":4.8,"tags":["joc","societate","familie","educativ"]},
-  {"title":"Telescop pentru începători National Geographic","description":"Telescop refractor 70/900, ideal pentru observații lunare","category":"pentru_copii","priceCents":34999,"oldPriceCents":42999,"currency":"RON","imageUrl":"https://picsum.photos/seed/telescope/600/400","sourceName":"National Geographic","sourceType":"affiliate","available":true,"rating":4.5,"tags":["telescop","stiinta","educativ","cadou"]},
-  {"title":"Kit robotică Arduino pentru copii","description":"Învață programare și electronică cu proiecte practice","category":"pentru_copii","priceCents":14999,"oldPriceCents":19999,"currency":"RON","imageUrl":"https://picsum.photos/seed/arduino/600/400","sourceName":"Arduino","sourceType":"affiliate","available":true,"rating":4.7,"tags":["robotica","programare","stem","educativ"]},
-  {"title":"Trotinetă electrică Segway Ninebot E2","description":"Trotinetă sigură pentru copii 8+, viteză max 20 km/h","category":"pentru_copii","priceCents":109999,"oldPriceCents":129999,"currency":"RON","imageUrl":"https://picsum.photos/seed/scooter1/600/400","sourceName":"Segway","sourceType":"affiliate","available":true,"rating":4.6,"tags":["trotineta","outdoor","sport"]},
-  {"title":"Set experiment chimie pentru copii","description":"50 experimente sigure cu instrucțiuni pas cu pas","category":"pentru_copii","priceCents":9999,"oldPriceCents":12999,"currency":"RON","imageUrl":"https://picsum.photos/seed/chemistry/600/400","sourceName":"Science Kit","sourceType":"affiliate","available":true,"rating":4.3,"tags":["chimie","stiinta","educativ","cadou"]},
-  {"title":"Puzzle 3D Notre Dame 293 piese","description":"Reconstituie catedrala Notre Dame în miniatură","category":"pentru_copii","priceCents":12999,"oldPriceCents":15999,"currency":"RON","imageUrl":"https://picsum.photos/seed/puzzle3d/600/400","sourceName":"CubicFun","sourceType":"affiliate","available":true,"rating":4.5,"tags":["puzzle","3d","constructii","cadou"]},
-
-  {"title":"Sapiens — Yuval Noah Harari","description":"Scurtă istorie a omenirii. Bestseller global.","category":"de_citit","priceCents":4499,"oldPriceCents":5499,"currency":"RON","imageUrl":"https://picsum.photos/seed/book1/600/400","sourceName":"Polirom","sourceType":"affiliate","available":true,"rating":4.8,"tags":["carte","nonfiction","istorie","bestseller"]},
-  {"title":"Atomic Habits — James Clear","description":"Metode dovedite pentru formarea obiceiurilor bune","category":"de_citit","priceCents":3999,"oldPriceCents":4999,"currency":"RON","imageUrl":"https://picsum.photos/seed/book2/600/400","sourceName":"Lifestyle Publishing","sourceType":"affiliate","available":true,"rating":4.9,"tags":["carte","self-help","productivitate","bestseller"]},
-  {"title":"Dune — Frank Herbert","description":"Capodopera SF. Aventură epică pe planeta deșertică Arrakis.","category":"de_citit","priceCents":3499,"oldPriceCents":4299,"currency":"RON","imageUrl":"https://picsum.photos/seed/book3/600/400","sourceName":"Nemira","sourceType":"affiliate","available":true,"rating":4.7,"tags":["carte","sf","fiction","clasic"]},
-  {"title":"Kindle Paperwhite 16GB","description":"E-reader rezistent la apă, ecran 6.8\", lumină ajustabilă","category":"de_citit","priceCents":64999,"oldPriceCents":74999,"currency":"RON","imageUrl":"https://picsum.photos/seed/kindle/600/400","sourceName":"Amazon","sourceType":"affiliate","available":true,"rating":4.8,"tags":["ereader","kindle","gadget"]},
-  {"title":"Abonament Bookster 6 luni","description":"Împrumută cărți de la birou. Peste 30.000 titluri.","category":"de_citit","priceCents":14999,"oldPriceCents":17999,"currency":"RON","imageUrl":"https://picsum.photos/seed/bookster/600/400","sourceName":"Bookster","sourceType":"affiliate","available":true,"rating":4.5,"tags":["abonament","carti","subscription"]},
-  {"title":"The Pragmatic Programmer","description":"Cartea esențială pentru orice dezvoltator software","category":"de_citit","priceCents":22999,"oldPriceCents":27999,"currency":"RON","imageUrl":"https://picsum.photos/seed/book4/600/400","sourceName":"Addison-Wesley","sourceType":"affiliate","available":true,"rating":4.9,"tags":["carte","programming","tech","nonfiction"]},
-  {"title":"Box set Harry Potter complet","description":"Toate cele 7 cărți în ediție specială de colecție","category":"de_citit","priceCents":34999,"oldPriceCents":42999,"currency":"RON","imageUrl":"https://picsum.photos/seed/hp/600/400","sourceName":"Arthur","sourceType":"affiliate","available":true,"rating":4.9,"tags":["carte","fiction","colectie","cadou"]},
-  {"title":"Revista Dilema Veche — abonament anual","description":"Revistă de cultură și societate, 50 numere/an","category":"de_citit","priceCents":24999,"oldPriceCents":29999,"currency":"RON","imageUrl":"https://picsum.photos/seed/dilema/600/400","sourceName":"Dilema Veche","sourceType":"affiliate","available":true,"rating":4.4,"tags":["revista","cultura","abonament"]},
-
-  {"title":"Set lenjerie de corp premium","description":"Lenjerie din mătase naturală, elegantă și confortabilă","category":"18plus","priceCents":29999,"oldPriceCents":39999,"currency":"RON","imageUrl":"https://picsum.photos/seed/lingerie/600/400","sourceName":"Intimissimi","sourceType":"affiliate","available":true,"rating":4.6,"tags":["lenjerie","premium","cadou"]},
-  {"title":"Set degustare whisky premium","description":"5 whisky-uri single malt din Scoția, pahare incluse","category":"18plus","priceCents":44999,"oldPriceCents":54999,"currency":"RON","imageUrl":"https://picsum.photos/seed/whisky2/600/400","sourceName":"The Whisky Shop","sourceType":"affiliate","available":true,"rating":4.7,"tags":["whisky","degustare","premium","cadou"]},
-  {"title":"Experiență spa couples","description":"2 ore de masaj și saună pentru cuplu","category":"18plus","priceCents":55000,"oldPriceCents":70000,"priceSuffix":"lei/cuplu","currency":"RON","imageUrl":"https://picsum.photos/seed/spa1/600/400","sourceName":"Therme","sourceType":"manual","available":true,"rating":4.8,"tags":["spa","relaxare","cuplu","bucuresti"]},
-  {"title":"Workshop mixologie cocktailuri","description":"Învață să faci 5 cocktailuri clasice cu barman profesionist","category":"18plus","priceCents":25000,"oldPriceCents":30000,"priceSuffix":"lei/persoană","currency":"RON","imageUrl":"https://picsum.photos/seed/cocktails/600/400","sourceName":"Cocktail School","sourceType":"manual","available":true,"rating":4.5,"tags":["cocktail","workshop","social","bucuresti"]},
-  {"title":"Vin roșu premium Cuvée Millennium","description":"Vin de colecție, ediție limitată, maturat 18 luni în baric","category":"18plus","priceCents":34999,"oldPriceCents":44999,"currency":"RON","imageUrl":"https://picsum.photos/seed/premiumwine/600/400","sourceName":"Domeniul Coroanei","sourceType":"affiliate","available":true,"rating":4.8,"tags":["vin","colectie","premium"]},
-  {"title":"Trabuc Cohiba Siglo VI","description":"Trabuc cubanez premium, aromă complexă de cacao și piele","category":"18plus","priceCents":18999,"oldPriceCents":22999,"currency":"RON","imageUrl":"https://picsum.photos/seed/cigar/600/400","sourceName":"Havana Club","sourceType":"affiliate","available":true,"rating":4.6,"tags":["trabuc","premium","cadou"]},
-  {"title":"Weekend romantic la castel","description":"2 nopți la castel cu cină romantică și tur privat","category":"18plus","priceCents":199999,"oldPriceCents":249999,"priceSuffix":"lei/cuplu","currency":"RON","imageUrl":"https://picsum.photos/seed/castle/600/400","sourceName":"Castelul Bran","sourceType":"manual","available":true,"rating":4.9,"tags":["romantic","weekend","cuplu","brasov"]},
-  {"title":"Set joc pentru cupluri","description":"Joc de conversație și provocări intime pentru cupluri","category":"18plus","priceCents":9999,"oldPriceCents":12999,"currency":"RON","imageUrl":"https://picsum.photos/seed/couples/600/400","sourceName":"Love Games","sourceType":"affiliate","available":true,"rating":4.3,"tags":["joc","cuplu","romantic","cadou"]}
+  {
+    "title": "Set 6 cesti + 6 farfurii, Kutahya Porselen, BNKL12KT4309203, 50 ml, portelan, multicolor",
+    "description": "Kutahya Porselen",
+    "category": "bagat_in_gura",
+    "priceCents": 15400,
+    "oldPriceCents": 25800,
+    "currency": "RON",
+    "imageUrl": "https://www.mezoni.ro/media/product-images/d9ae6bac-baa6-4deb-8fc1-93030fbec387/l-set-6-cesti-6-farfurii-kutahya-porselen-bnkl12kt4309203-50-ml-portelan-multicolor.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=fa4994ac1&aff_code=fd9130a9e&campaign_unique=17a3613f8",
+    "sourceName": "fabricadetuica.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.6,
+    "tags": [
+      "bagat_in_gura",
+      "fabricadetuica"
+    ]
+  },
+  {
+    "title": "Ceainic din Cupru Efect Lovitura Ciocan Traditional 1,5L",
+    "description": "AlmaCozinha",
+    "category": "bagat_in_gura",
+    "priceCents": 38960,
+    "oldPriceCents": 48700,
+    "currency": "RON",
+    "imageUrl": "https://c.cdnmp.net/626697966/p/l/1/ceainic-din-cupru-efect-lovitura-ciocan-traditional-1-5l~1451.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=cda7e2283&aff_code=fd9130a9e&campaign_unique=f659ee6d5",
+    "sourceName": "fabricadetuica.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.4,
+    "tags": [
+      "bagat_in_gura",
+      "fabricadetuica"
+    ]
+  },
+  {
+    "title": "Ceai Mate, Bio, 90g, Sonnentor",
+    "description": "ceaiuri maté",
+    "category": "bagat_in_gura",
+    "priceCents": 1335,
+    "oldPriceCents": 2670,
+    "currency": "RON",
+    "imageUrl": "https://procash.r.worldssl.net/images/products/yj/5375-46624.png",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=9600bdd3d&aff_code=fd9130a9e&campaign_unique=f2d6169d1",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.1,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Green Granola Ecologica/Bio 200g",
+    "description": "NIAVIS",
+    "category": "bagat_in_gura",
+    "priceCents": 1770,
+    "oldPriceCents": 2950,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_202406171514/134357/full/niavis-green-granola-ecologica-bio-200g-295785.png",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=9791450f0&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.1,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Silfide Complex de Slabit Forte 100cpr + Ceai de Slabit 30 plicuri",
+    "description": "ALEVIA",
+    "category": "bagat_in_gura",
+    "priceCents": 7537,
+    "oldPriceCents": 10050,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_201611250935/19057/full/alevia-silfide-complex-de-slabit-forte-100cpr-plus-ceai-de-slabit-30plicuri-131806.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=73d45b128&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.9,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Miere de Manuka MGO 400+ RAW 250g",
+    "description": "WEDDERSPOON",
+    "category": "bagat_in_gura",
+    "priceCents": 16871,
+    "oldPriceCents": 22495,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img_202406171514/139393/full/wedderspoon-miere-de-manuka-mgo-400-plus-raw-250g-306315.png",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=6a7622f2d&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.2,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Seminte de In 1kg",
+    "description": "SANOVITA",
+    "category": "bagat_in_gura",
+    "priceCents": 2177,
+    "oldPriceCents": 2902,
+    "currency": "RON",
+    "imageUrl": "https://cdn.vegis.ro/images/products/img1/5418/full/sanovita-seminte-de-in-1kg-36130.jpeg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=800c2f1f4&aff_code=fd9130a9e&campaign_unique=861f9e301",
+    "sourceName": "vitamix.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.3,
+    "tags": [
+      "bagat_in_gura",
+      "vitamix"
+    ]
+  },
+  {
+    "title": "Pantofi sport cu broderii si decupaje - Negru",
+    "description": "Big Star",
+    "category": "de_purtat",
+    "priceCents": 1998,
+    "oldPriceCents": 17691,
+    "currency": "RON",
+    "imageUrl": "https://fdcdn.akamaized.net/m/780x1132/products/55038/55037905/images/res_96e4e9c1e593b049229c0793f6f76576.jpg?s=XL0HcXCKk8GI",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=d846be297&aff_code=fd9130a9e&campaign_unique=a1880c1fe",
+    "sourceName": "originals.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.4,
+    "tags": [
+      "de_purtat",
+      "originals"
+    ]
+  },
+  {
+    "title": "Colier din otel inoxidabil cu pandantiv in forma de sarpe si cristale - Auriu",
+    "description": "Marc Malone",
+    "category": "de_purtat",
+    "priceCents": 3999,
+    "oldPriceCents": 31699,
+    "currency": "RON",
+    "imageUrl": "https://fdcdn.akamaized.net/m/780x1132/products/59580/59579947/images/res_6b8b4aafee60ba8c17ff6d0f0030f56b.jpg?s=OySgTPz3SPL6",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=5fda1523d&aff_code=fd9130a9e&campaign_unique=a1880c1fe",
+    "sourceName": "originals.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.6,
+    "tags": [
+      "de_purtat",
+      "originals"
+    ]
+  },
+  {
+    "title": "Tricou cu decolteu la baza gatului si logo discret Sezar - Alb/Bleumarin",
+    "description": "Red, White and Blue",
+    "category": "de_purtat",
+    "priceCents": 2999,
+    "oldPriceCents": 18999,
+    "currency": "RON",
+    "imageUrl": "https://fdcdn.akamaized.net/m/780x1132/products/54088/54087850/images/res_ff658d90d578544953927f41d0f6ba04.jpg?s=mW9k7VOSbrup",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=b2703269a&aff_code=fd9130a9e&campaign_unique=a1880c1fe",
+    "sourceName": "originals.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.0,
+    "tags": [
+      "de_purtat",
+      "originals"
+    ]
+  },
+  {
+    "title": "Ochelari de soare dreptunghiulari Alexandra - Negru",
+    "description": "Emily Westwood",
+    "category": "de_purtat",
+    "priceCents": 5999,
+    "oldPriceCents": 37112,
+    "currency": "RON",
+    "imageUrl": "https://fdcdn.akamaized.net/m/780x1132/products/57197/57196870/images/res_227ba01044a5aacd3772d84083dc8fa2.jpg?s=yVvJGKr_Cw40",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=89374094f&aff_code=fd9130a9e&campaign_unique=a1880c1fe",
+    "sourceName": "originals.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.6,
+    "tags": [
+      "de_purtat",
+      "originals"
+    ]
+  },
+  {
+    "title": "Rochie rosie cu fusta plisata si accesoriu auriu",
+    "description": "rochii office",
+    "category": "de_purtat",
+    "priceCents": 4990,
+    "oldPriceCents": 30000,
+    "currency": "RON",
+    "imageUrl": "https://cdn7.avanticart.ro/trendland.ro/pictures/rochie-rosie-cu-fusta-plisata-si-accesoriu-auriu-DD20-96689-4.jpeg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=30a6f9bab&aff_code=fd9130a9e&campaign_unique=58a6e453f",
+    "sourceName": "originals.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.6,
+    "tags": [
+      "de_purtat",
+      "originals"
+    ]
+  },
+  {
+    "title": "Sandale Clindar Galbene",
+    "description": "dEpurtat.ro",
+    "category": "de_purtat",
+    "priceCents": 1499,
+    "oldPriceCents": 8990,
+    "currency": "RON",
+    "imageUrl": "https://a.cdnmp.net/129520705/p/l/6/sandale-clindar-galbene~8864256.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=5a9b7cce8&aff_code=fd9130a9e&campaign_unique=15b6bd058",
+    "sourceName": "originals.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.4,
+    "tags": [
+      "de_purtat",
+      "originals"
+    ]
+  },
+  {
+    "title": "Rucsac din piele in forma de triunghi Aureliana - Maro",
+    "description": "Anna Morellini",
+    "category": "de_purtat",
+    "priceCents": 28999,
+    "oldPriceCents": 172043,
+    "currency": "RON",
+    "imageUrl": "https://fdcdn.akamaized.net/m/780x1132/products/38597/38596480/images/res_403c25bababe49e4cde685a19d14457a.jpg?s=Q3dQmShPt9PT",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=e70c8462d&aff_code=fd9130a9e&campaign_unique=a1880c1fe",
+    "sourceName": "originals.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.9,
+    "tags": [
+      "de_purtat",
+      "originals"
+    ]
+  },
+  {
+    "title": "Bluza de satin cu decupaj pe spate Selin - Maro nisip",
+    "description": "Vila",
+    "category": "de_purtat",
+    "priceCents": 4999,
+    "oldPriceCents": 29181,
+    "currency": "RON",
+    "imageUrl": "https://fdcdn.akamaized.net/m/780x1132/products/62316/62315781/images/res_578007c0aa74f7c23459b50fc1e55db3.jpg?s=QiOrRPMK0Pzb",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=9dc85b109&aff_code=fd9130a9e&campaign_unique=a1880c1fe",
+    "sourceName": "originals.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.3,
+    "tags": [
+      "de_purtat",
+      "originals"
+    ]
+  },
+  {
+    "title": "Rucsac din piele Sirietto - Galben mustar",
+    "description": "Mia Tomazzi",
+    "category": "de_purtat",
+    "priceCents": 25999,
+    "oldPriceCents": 151300,
+    "currency": "RON",
+    "imageUrl": "https://fdcdn.akamaized.net/m/780x1132/products/39025/39024001/images/res_6bfb8f6f6a31dc41f8c1eeff92d78bc5.jpg?s=IXDqz9K2k_41",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=604d860be&aff_code=fd9130a9e&campaign_unique=a1880c1fe",
+    "sourceName": "originals.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.5,
+    "tags": [
+      "de_purtat",
+      "originals"
+    ]
+  },
+  {
+    "title": "Pantaloni cargo cu talie medie - Gri",
+    "description": "Urban Classics",
+    "category": "de_purtat",
+    "priceCents": 3970,
+    "oldPriceCents": 22199,
+    "currency": "RON",
+    "imageUrl": "https://fdcdn.akamaized.net/m/780x1132/products/41904/41903878/images/res_62e4f4461bce93358b9e89c94f8ab4b7.jpg?s=-FKFPadWsUp-",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=ae3734035&aff_code=fd9130a9e&campaign_unique=a1880c1fe",
+    "sourceName": "originals.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.2,
+    "tags": [
+      "de_purtat",
+      "originals"
+    ]
+  },
+  {
+    "title": "Tricou unisex cu imprimeu text - Alb/Portocaliu mandarina/Albastru",
+    "description": "Mister tee",
+    "category": "de_purtat",
+    "priceCents": 1804,
+    "oldPriceCents": 9899,
+    "currency": "RON",
+    "imageUrl": "https://fdcdn.akamaized.net/m/780x1132/products/58693/58692511/images/res_11a06d5173ac7d302462e466a47d623b.jpg?s=i6LJLuyozkoe",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=389580bdb&aff_code=fd9130a9e&campaign_unique=a1880c1fe",
+    "sourceName": "originals.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.3,
+    "tags": [
+      "de_purtat",
+      "originals"
+    ]
+  },
+  {
+    "title": "Tricou de bumbac cu imprimeu logo - Negru",
+    "description": "Merchcode",
+    "category": "de_purtat",
+    "priceCents": 2075,
+    "oldPriceCents": 11299,
+    "currency": "RON",
+    "imageUrl": "https://fdcdn.akamaized.net/m/780x1132/products/41905/41904652/images/res_c2501b895b664d98f80b4f57da03e229.jpg?s=UsxybAXGG7kE",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=05c6b6b72&aff_code=fd9130a9e&campaign_unique=a1880c1fe",
+    "sourceName": "originals.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.0,
+    "tags": [
+      "de_purtat",
+      "originals"
+    ]
+  },
+  {
+    "title": "Cercei rotunzi cu pandantive cu inima - Auriu",
+    "description": "Atelier Miu",
+    "category": "de_purtat",
+    "priceCents": 6998,
+    "oldPriceCents": 37299,
+    "currency": "RON",
+    "imageUrl": "https://fdcdn.akamaized.net/m/780x1132/products/61206/61205434/images/res_08dcf4305775ead2fec047ef53d24777.jpg?s=-cby-yDbRkxz",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=1c83d0a08&aff_code=fd9130a9e&campaign_unique=a1880c1fe",
+    "sourceName": "originals.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.1,
+    "tags": [
+      "de_purtat",
+      "originals"
+    ]
+  },
+  {
+    "title": "Set de bratara rigida de otel inoxidabil fara inchidere si cercei - Argintiu",
+    "description": "Isabella Ford",
+    "category": "de_purtat",
+    "priceCents": 7998,
+    "oldPriceCents": 41699,
+    "currency": "RON",
+    "imageUrl": "https://fdcdn.akamaized.net/m/780x1132/products/51913/51912647/images/res_d5adb3c7508854544c792944c4d54be8.jpg?s=AvMnTOlsiJW-",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=8fb5beffa&aff_code=fd9130a9e&campaign_unique=a1880c1fe",
+    "sourceName": "originals.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.2,
+    "tags": [
+      "de_purtat",
+      "originals"
+    ]
+  },
+  {
+    "title": "Rucsac de piele ecologica cu logo - Negru/Albastru",
+    "description": "Lucky Bees",
+    "category": "de_purtat",
+    "priceCents": 11999,
+    "oldPriceCents": 60702,
+    "currency": "RON",
+    "imageUrl": "https://fdcdn.akamaized.net/m/780x1132/products/43367/43366798/images/res_cbab9b86b0cc5184f5f43e4377238771.jpg?s=09_njBET0k-t",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=8af1e277b&aff_code=fd9130a9e&campaign_unique=a1880c1fe",
+    "sourceName": "originals.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.4,
+    "tags": [
+      "de_purtat",
+      "originals"
+    ]
+  },
+  {
+    "title": "Detectiv de Romania Vol. 2",
+    "description": "Bookzone",
+    "category": "de_citit",
+    "priceCents": 1989,
+    "oldPriceCents": 5190,
+    "currency": "RON",
+    "imageUrl": "https://api.bookzone.ro/upload/produse/ZHMJDGJR3/bg1.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=49e268826&aff_code=fd9130a9e&campaign_unique=50e9adcf3",
+    "sourceName": "libris.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.2,
+    "tags": [
+      "de_citit",
+      "libris"
+    ]
+  },
+  {
+    "title": "Ne facem bine. Romania, te iubesc! - Paula Herlo, Rares Nastase, Alex Dima, Cosmin Savu, Paul Angele",
+    "description": "Paul Angelescu",
+    "category": "de_citit",
+    "priceCents": 2141,
+    "oldPriceCents": 4758,
+    "currency": "RON",
+    "imageUrl": "https://www.libris.ro/img/pozeprod/12790/12789057-1-small-1.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=41f227e9c&aff_code=fd9130a9e&campaign_unique=9a6f02fef",
+    "sourceName": "libris.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.5,
+    "tags": [
+      "de_citit",
+      "libris"
+    ]
+  },
+  {
+    "title": "Pachet educational-creativ. In lumea povestilor cu Mihaela si Azorel - clasa pregatitoare",
+    "description": "edituradiana.ro",
+    "category": "de_citit",
+    "priceCents": 3699,
+    "oldPriceCents": 7400,
+    "currency": "RON",
+    "imageUrl": "https://cdn.contentspeed.ro/0754242992.websales.ro/cs-content/cs-photos/products/original/pachet-educationalcreativ-in-lumea-povestilor-cu_12234_1_1567690284.png",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=9b618b630&aff_code=fd9130a9e&campaign_unique=313128750",
+    "sourceName": "libris.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.2,
+    "tags": [
+      "de_citit",
+      "libris"
+    ]
+  },
+  {
+    "title": "Povesti cu gust - Mircea Radu",
+    "description": "Mircea Radu",
+    "category": "de_citit",
+    "priceCents": 2061,
+    "oldPriceCents": 4123,
+    "currency": "RON",
+    "imageUrl": "https://www.libris.ro/img/pozeprod/1067/1066715-1-small-1.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=24d8ea493&aff_code=fd9130a9e&campaign_unique=9a6f02fef",
+    "sourceName": "libris.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.7,
+    "tags": [
+      "de_citit",
+      "libris"
+    ]
+  },
+  {
+    "title": "Misterioasa societate Benedict si dilema prizonieruluii - Trenton Lee Stewart",
+    "description": "Trenton Lee Stewart",
+    "category": "de_citit",
+    "priceCents": 2907,
+    "oldPriceCents": 5815,
+    "currency": "RON",
+    "imageUrl": "https://www.libris.ro/img/pozeprod/10907/10906449-1-small-1.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=c770319b5&aff_code=fd9130a9e&campaign_unique=9a6f02fef",
+    "sourceName": "libris.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.0,
+    "tags": [
+      "de_citit",
+      "libris"
+    ]
+  },
+  {
+    "title": "Arta razboiului. Roman grafic - Sun Tzu",
+    "description": "Sun Tzu",
+    "category": "de_citit",
+    "priceCents": 3435,
+    "oldPriceCents": 6870,
+    "currency": "RON",
+    "imageUrl": "https://www.libris.ro/img/pozeprod/10886/10885969-1-small-1.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=001a9f58e&aff_code=fd9130a9e&campaign_unique=9a6f02fef",
+    "sourceName": "libris.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.6,
+    "tags": [
+      "de_citit",
+      "libris"
+    ]
+  },
+  {
+    "title": "Personaje si elemente-cheie din povesti 3 ani+ (Eduflash)",
+    "description": "-",
+    "category": "de_citit",
+    "priceCents": 1560,
+    "oldPriceCents": 3120,
+    "currency": "RON",
+    "imageUrl": "https://www.libris.ro/img/pozeprod/10750/10749561-1-small-1.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=16779e11f&aff_code=fd9130a9e&campaign_unique=9a6f02fef",
+    "sourceName": "libris.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.9,
+    "tags": [
+      "de_citit",
+      "libris"
+    ]
+  },
+  {
+    "title": "Chefi de Romania - Daniela Sima",
+    "description": "Daniela Sima",
+    "category": "de_citit",
+    "priceCents": 4229,
+    "oldPriceCents": 8458,
+    "currency": "RON",
+    "imageUrl": "https://www.libris.ro/img/pozeprod/10754/10753104-1-small-1.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=a3768d7b5&aff_code=fd9130a9e&campaign_unique=9a6f02fef",
+    "sourceName": "libris.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.2,
+    "tags": [
+      "de_citit",
+      "libris"
+    ]
+  },
+  {
+    "title": "Insigna - Game of Thrones - Renly Baratheon Shield | Diamond Comic Distribution",
+    "description": "Diamond Comic Distribution",
+    "category": "de_citit",
+    "priceCents": 5200,
+    "oldPriceCents": 10400,
+    "currency": "RON",
+    "imageUrl": "https://carturesti.ro/img-prod/458776-0.jpeg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=3d1730642&aff_code=fd9130a9e&campaign_unique=07b5f0fed",
+    "sourceName": "libris.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.7,
+    "tags": [
+      "de_citit",
+      "libris"
+    ]
+  },
+  {
+    "title": "Povestile deosebitilor - Ransom Riggs",
+    "description": "Ransom Riggs",
+    "category": "de_citit",
+    "priceCents": 2450,
+    "oldPriceCents": 4900,
+    "currency": "RON",
+    "imageUrl": "https://www.libris.ro/img/pozeprod/1167/1166122-1-small-1.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=fd1e801ac&aff_code=fd9130a9e&campaign_unique=9a6f02fef",
+    "sourceName": "libris.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.5,
+    "tags": [
+      "de_citit",
+      "libris"
+    ]
+  },
+  {
+    "title": "Bani murdari. Cum fac afaceri cartelurile de droguri - Tom Wainwright",
+    "description": "Tom Wainwright",
+    "category": "de_citit",
+    "priceCents": 1587,
+    "oldPriceCents": 4490,
+    "currency": "RON",
+    "imageUrl": "https://www.libris.ro/img/pozeprod/13223/13222945-1-small-1.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=daf66eb81&aff_code=fd9130a9e&campaign_unique=9a6f02fef",
+    "sourceName": "libris.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.3,
+    "tags": [
+      "de_citit",
+      "libris"
+    ]
+  },
+  {
+    "title": "Pachet Alinare vindecare dezvoltare",
+    "description": "Bookzone",
+    "category": "de_citit",
+    "priceCents": 8990,
+    "oldPriceCents": 21960,
+    "currency": "RON",
+    "imageUrl": "https://api.bookzone.ro/upload/produse/ZZLDLZR3D/bg7.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=53fe3ab8b&aff_code=fd9130a9e&campaign_unique=50e9adcf3",
+    "sourceName": "libris.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.4,
+    "tags": [
+      "de_citit",
+      "libris"
+    ]
+  },
+  {
+    "title": "Expansiunea Chinei. Cum Alibaba, Huawei, Lenovo şi alţii schimbă regulile afacerilor",
+    "description": "Editura NICULESCU",
+    "category": "de_citit",
+    "priceCents": 1645,
+    "oldPriceCents": 3478,
+    "currency": "RON",
+    "imageUrl": "https://www.niculescu.ro/media/catalog/product/e/x/expansiunea_chinei.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=c99812345&aff_code=fd9130a9e&campaign_unique=706637522",
+    "sourceName": "libris.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.8,
+    "tags": [
+      "de_citit",
+      "libris"
+    ]
+  },
+  {
+    "title": "Gata cu tampeniile. Nu te mai sabota, ia-ti viata in maini - Gary John Bishop",
+    "description": "Gary John Bishop",
+    "category": "de_citit",
+    "priceCents": 2061,
+    "oldPriceCents": 4123,
+    "currency": "RON",
+    "imageUrl": "https://www.libris.ro/img/pozeprod/13327/13326295-1-small-1.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=04860fe33&aff_code=fd9130a9e&campaign_unique=9a6f02fef",
+    "sourceName": "libris.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.8,
+    "tags": [
+      "de_citit",
+      "libris"
+    ]
+  },
+  {
+    "title": "Cooperarea intre sexe - Alfred Adler",
+    "description": "Alfred Adler",
+    "category": "de_citit",
+    "priceCents": 2061,
+    "oldPriceCents": 4123,
+    "currency": "RON",
+    "imageUrl": "https://www.libris.ro/img/pozeprod/10909/10908842-1-small-1.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=d8aa09701&aff_code=fd9130a9e&campaign_unique=9a6f02fef",
+    "sourceName": "libris.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.3,
+    "tags": [
+      "de_citit",
+      "libris"
+    ]
+  },
+  {
+    "title": "Jucarie din plus Hiro, Big Hero, 25 cm",
+    "description": "Play by Play",
+    "category": "pentru_copii",
+    "priceCents": 1955,
+    "oldPriceCents": 8890,
+    "currency": "RON",
+    "imageUrl": "https://www.ookee.ro/257805-large_default/jucarie-din-plus-hiro-big-hero-25-cm.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=2bc6ec16e&aff_code=fd9130a9e&campaign_unique=ac2bffaf7",
+    "sourceName": "ookee.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.9,
+    "tags": [
+      "pentru_copii",
+      "ookee"
+    ]
+  },
+  {
+    "title": "Veioza 2 in 1 go glow mickey mouse",
+    "description": "Worlds Apart",
+    "category": "pentru_copii",
+    "priceCents": 3494,
+    "oldPriceCents": 15190,
+    "currency": "RON",
+    "imageUrl": "https://www.ookee.ro/141550-large_default/veioza-2-in-1-go-glow-mickey-mouse.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=25ceacdca&aff_code=fd9130a9e&campaign_unique=ac2bffaf7",
+    "sourceName": "ookee.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.9,
+    "tags": [
+      "pentru_copii",
+      "ookee"
+    ]
+  },
+  {
+    "title": "Set de crosetat pentru copii Nancy",
+    "description": "Goki",
+    "category": "pentru_copii",
+    "priceCents": 1082,
+    "oldPriceCents": 3490,
+    "currency": "RON",
+    "imageUrl": "https://www.ookee.ro/236735-large_default/set-de-crosetat-pentru-copii-nancy.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=66219cfb4&aff_code=fd9130a9e&campaign_unique=ac2bffaf7",
+    "sourceName": "ookee.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.5,
+    "tags": [
+      "pentru_copii",
+      "ookee"
+    ]
+  },
+  {
+    "title": "Trotineta copii 3-8 ani, Primo albastra",
+    "description": "GLOBBER",
+    "category": "pentru_copii",
+    "priceCents": 12806,
+    "oldPriceCents": 36590,
+    "currency": "RON",
+    "imageUrl": "https://www.ookee.ro/154481-large_default/trotineta-primo-albastra.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=02d4a164b&aff_code=fd9130a9e&campaign_unique=ac2bffaf7",
+    "sourceName": "ookee.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.7,
+    "tags": [
+      "pentru_copii",
+      "ookee"
+    ]
+  },
+  {
+    "title": "Salteluta interactiva, Qmini, Abby, Cu muzica, 20 bile, 6 jucarii, Pentru activitati educationale, 8",
+    "description": "Qmini",
+    "category": "pentru_copii",
+    "priceCents": 13099,
+    "oldPriceCents": 35900,
+    "currency": "RON",
+    "imageUrl": "https://cdn7.avanticart.ro/babyneeds.ro/pictures/qmini-salteluta-interactiva-abby-cu-muzica-20-bile-6-jucarii-pentru-activitati-educationale-din-poliester-85x85-cm-multicolor-2032358-4.jpeg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=453ac6b45&aff_code=fd9130a9e&campaign_unique=0e0a9347f",
+    "sourceName": "ookee.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.7,
+    "tags": [
+      "pentru_copii",
+      "ookee"
+    ]
+  },
+  {
+    "title": "Motocicleta electrica pentru copii, POLICE JT568 35W STANDARD  Rosu",
+    "description": "Hollicy",
+    "category": "pentru_copii",
+    "priceCents": 29900,
+    "oldPriceCents": 81200,
+    "currency": "RON",
+    "imageUrl": "https://gomagcdn.ro/domains/kinderauto.ro/files/product/large/motocicleta-electrica-pentru-copii-police-jt568-25w-standard-alb-copie-647-5677.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=605a040bf&aff_code=fd9130a9e&campaign_unique=322bda0fb",
+    "sourceName": "ookee.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.7,
+    "tags": [
+      "pentru_copii",
+      "ookee"
+    ]
+  },
+  {
+    "title": "Joc de indemanare Magical Links",
+    "description": "UP Intl",
+    "category": "pentru_copii",
+    "priceCents": 1517,
+    "oldPriceCents": 3890,
+    "currency": "RON",
+    "imageUrl": "https://www.ookee.ro/267397-large_default/joc-de-indemanare-magical-links.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=6b90937d5&aff_code=fd9130a9e&campaign_unique=ac2bffaf7",
+    "sourceName": "ookee.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.4,
+    "tags": [
+      "pentru_copii",
+      "ookee"
+    ]
+  },
+  {
+    "title": "Ghiozdan scoala nici shooting star",
+    "description": "Giovas",
+    "category": "pentru_copii",
+    "priceCents": 12554,
+    "oldPriceCents": 32189,
+    "currency": "RON",
+    "imageUrl": "https://www.ookee.ro/199183-large_default/ghiozdan-scoala-nici-shooting-star.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=5f81d4358&aff_code=fd9130a9e&campaign_unique=ac2bffaf7",
+    "sourceName": "ookee.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.8,
+    "tags": [
+      "pentru_copii",
+      "ookee"
+    ]
+  },
+  {
+    "title": "Leagan-Hamac Cocon 'DENOH', Senzorial, Magenta Verde Lime",
+    "description": "KBT",
+    "category": "pentru_copii",
+    "priceCents": 14591,
+    "oldPriceCents": 35590,
+    "currency": "RON",
+    "imageUrl": "https://www.ookee.ro/254922-large_default/leagan-hamac-cocon-denoh-senzorial-magentaverde-lime.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=9d673c46d&aff_code=fd9130a9e&campaign_unique=ac2bffaf7",
+    "sourceName": "ookee.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.3,
+    "tags": [
+      "pentru_copii",
+      "ookee"
+    ]
+  },
+  {
+    "title": "Joc creativ pahare conectabile",
+    "description": "Heutink",
+    "category": "pentru_copii",
+    "priceCents": 2087,
+    "oldPriceCents": 5090,
+    "currency": "RON",
+    "imageUrl": "https://www.ookee.ro/250492-large_default/joc-creativ-pahare-conectabile.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=998af9b8d&aff_code=fd9130a9e&campaign_unique=ac2bffaf7",
+    "sourceName": "ookee.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.6,
+    "tags": [
+      "pentru_copii",
+      "ookee"
+    ]
+  },
+  {
+    "title": "Jucarie muzicala, Skip Hop, Explore&More, Xilofon, Transformabila in jucarie de tras, Cu 8 clape si ",
+    "description": "Skip Hop",
+    "category": "pentru_copii",
+    "priceCents": 8098,
+    "oldPriceCents": 19319,
+    "currency": "RON",
+    "imageUrl": "https://cdn7.avanticart.ro/babyneeds.ro/pictures/skip-hop-jucarie-xilofon-vulpe-explore-more-2722340-4.jpeg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=8d5b67a48&aff_code=fd9130a9e&campaign_unique=0e0a9347f",
+    "sourceName": "ookee.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.2,
+    "tags": [
+      "pentru_copii",
+      "ookee"
+    ]
+  },
+  {
+    "title": "Trotineta intuitiva disney princess",
+    "description": "stamp",
+    "category": "pentru_copii",
+    "priceCents": 12092,
+    "oldPriceCents": 28789,
+    "currency": "RON",
+    "imageUrl": "https://www.ookee.ro/112463-large_default/trotineta-intuitiva-disney-princess.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=137b41349&aff_code=fd9130a9e&campaign_unique=ac2bffaf7",
+    "sourceName": "ookee.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.5,
+    "tags": [
+      "pentru_copii",
+      "ookee"
+    ]
+  },
+  {
+    "title": "Extindere joc Noris Escape Room Statia Spatiala",
+    "description": "Noris",
+    "category": "pentru_copii",
+    "priceCents": 3952,
+    "oldPriceCents": 9190,
+    "currency": "RON",
+    "imageUrl": "https://www.ookee.ro/172010-large_default/extindere-joc-noris-escape-room-statia-spatiala.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=cf48e3c6f&aff_code=fd9130a9e&campaign_unique=ac2bffaf7",
+    "sourceName": "ookee.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.3,
+    "tags": [
+      "pentru_copii",
+      "ookee"
+    ]
+  },
+  {
+    "title": "Trotineta e-l batman cu trei roti",
+    "description": "E&L Cycles",
+    "category": "pentru_copii",
+    "priceCents": 8928,
+    "oldPriceCents": 20290,
+    "currency": "RON",
+    "imageUrl": "https://www.ookee.ro/192655-large_default/trotineta-e-l-batman-cu-trei-roti.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=78becc331&aff_code=fd9130a9e&campaign_unique=ac2bffaf7",
+    "sourceName": "ookee.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.7,
+    "tags": [
+      "pentru_copii",
+      "ookee"
+    ]
+  },
+  {
+    "title": "Extensie 72 cm poarta modular Light Grey Safety 1St",
+    "description": "Safety 1st",
+    "category": "pentru_copii",
+    "priceCents": 12500,
+    "oldPriceCents": 28000,
+    "currency": "RON",
+    "imageUrl": "https://a.gomagcdn.ro/domains2/erfi.ro/files/product/large/extensie-72-cm-poarta-modular-light-grey-safety-1st-036655.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=622a11290&aff_code=fd9130a9e&campaign_unique=ca75a401c",
+    "sourceName": "ookee.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.4,
+    "tags": [
+      "pentru_copii",
+      "ookee"
+    ]
+  },
+  {
+    "title": "Set Lenjerie Sparkles Negru S/M",
+    "description": "STD",
+    "category": "18plus",
+    "priceCents": 8090,
+    "oldPriceCents": null,
+    "currency": "RON",
+    "imageUrl": "https://erotic24.ro/storage/product_image/5/0/5000128036153.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=e749a5ea6&aff_code=fd9130a9e&campaign_unique=60b800055",
+    "sourceName": "sexshop.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.1,
+    "tags": [
+      "18plus",
+      "sexshop"
+    ]
+  },
+  {
+    "title": "Obsessive Ciorapi Negri Cu Dantela Frumoasa 810 Large-XLarge Atingere Senzuala Irezistibila",
+    "description": "Obsessive",
+    "category": "18plus",
+    "priceCents": 5995,
+    "oldPriceCents": null,
+    "currency": "RON",
+    "imageUrl": "http://www.sexshop.ro/produse/500/373s01422-obsessive-ciorapi-negri-cu-dantela-frumoasa-810-large-xlarge-atingere-senzuala-irezistibila-1-500px.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=bac024585&aff_code=fd9130a9e&campaign_unique=90e5f8c54",
+    "sourceName": "sexshop.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.3,
+    "tags": [
+      "18plus",
+      "sexshop"
+    ]
+  },
+  {
+    "title": "Set sutien si bikini portjartier rosu OS",
+    "description": "Baci Lingerie",
+    "category": "18plus",
+    "priceCents": 4990,
+    "oldPriceCents": null,
+    "currency": "RON",
+    "imageUrl": "https://erotic24.ro/storage/product_image/s/e/set-sutien-si-bikini-portjartier-rosu-os-4890808165997.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=ma5SjRlDKogd&aff_code=fd9130a9e&campaign_unique=60b800055",
+    "sourceName": "sexshop.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.4,
+    "tags": [
+      "18plus",
+      "sexshop"
+    ]
+  },
+  {
+    "title": "Atingere Nebuna Bagheta Vibratoare Masaj Magic Violet Potenta si Versatila Capat Flexibil",
+    "description": "Chisa Novelties",
+    "category": "18plus",
+    "priceCents": 5995,
+    "oldPriceCents": null,
+    "currency": "RON",
+    "imageUrl": "http://www.sexshop.ro/produse/500/913s01492-atingere-nebuna-bagheta-vibratoare-masaj-magic-violet-potenta-si-versatila-capat-flexibil-1-500px.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=056eeb785&aff_code=fd9130a9e&campaign_unique=90e5f8c54",
+    "sourceName": "sexshop.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.9,
+    "tags": [
+      "18plus",
+      "sexshop"
+    ]
+  },
+  {
+    "title": "Parfum cu Feromoni pentru Barbati Phiero Premium, 30 ml",
+    "description": "500 Cosmetics",
+    "category": "18plus",
+    "priceCents": 16490,
+    "oldPriceCents": null,
+    "currency": "RON",
+    "imageUrl": "https://erotic24.ro/storage/product_image/8/4/8437012718227_2_.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=eaceffa1d&aff_code=fd9130a9e&campaign_unique=60b800055",
+    "sourceName": "sexshop.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.5,
+    "tags": [
+      "18plus",
+      "sexshop"
+    ]
+  },
+  {
+    "title": "Paletar Unghii Spirala 120 buc Suport Transparent",
+    "description": "OEM",
+    "category": "18plus",
+    "priceCents": 3714,
+    "oldPriceCents": 9286,
+    "currency": "RON",
+    "imageUrl": "https://nailsup.ro/media/catalog/product/2/6/2674.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=e08367bf2&aff_code=fd9130a9e&campaign_unique=501fc252b",
+    "sourceName": "esteto.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.6,
+    "tags": [
+      "18plus",
+      "esteto"
+    ]
+  },
+  {
+    "title": "Pieptene Frizerie/Coafor slim - Y.S/PARK -S339 - Albastru transparent",
+    "description": "Y.S./PARK",
+    "category": "18plus",
+    "priceCents": 3100,
+    "oldPriceCents": 7300,
+    "currency": "RON",
+    "imageUrl": "https://barber-store.ro/images/thumbs/000/0006891_pieptene-frizeriecoafor-slim-yspark-s339-albastru-transparent_600.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=7c7dd5eba&aff_code=fd9130a9e&campaign_unique=c7b68464c",
+    "sourceName": "esteto.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.4,
+    "tags": [
+      "18plus",
+      "esteto"
+    ]
+  },
+  {
+    "title": "Incalzitor Parafina Profesional iTouch SPA 360 LUXORISE 2000ml, roz",
+    "description": "LUXORISE Depil PRO",
+    "category": "18plus",
+    "priceCents": 15990,
+    "oldPriceCents": 35000,
+    "currency": "RON",
+    "imageUrl": "https://d.cdnmp.net/150529817/p/l/1/incalzitor-parafina-profesional-itouch-spa-360-luxorise-2000ml-roz~8408281.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=a25ba8575&aff_code=fd9130a9e&campaign_unique=cc08e2536",
+    "sourceName": "esteto.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.4,
+    "tags": [
+      "18plus",
+      "esteto"
+    ]
+  },
+  {
+    "title": "Portfard Travel Transparent & Fuchsia, SensoPRO Fiesta, set 2 buc",
+    "description": "SensoPRO Milano",
+    "category": "18plus",
+    "priceCents": 2990,
+    "oldPriceCents": 6500,
+    "currency": "RON",
+    "imageUrl": "https://d.cdnmp.net/150529817/p/l/6/portfard-travel-transparent-fuchsia-sensopro-fiesta-set-2-buc~8416456.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=57566ca83&aff_code=fd9130a9e&campaign_unique=cc08e2536",
+    "sourceName": "esteto.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.1,
+    "tags": [
+      "18plus",
+      "esteto"
+    ]
+  },
+  {
+    "title": "Corint space ar - Emil Dragan",
+    "description": "Nedefinit",
+    "category": "18plus",
+    "priceCents": 1000,
+    "oldPriceCents": 2115,
+    "currency": "RON",
+    "imageUrl": "https://www.esteto.ro/static/images/produse/528493/corint-space-ar-emil-dragan-1.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=d406fe649&aff_code=fd9130a9e&campaign_unique=59bb5f58d",
+    "sourceName": "esteto.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.8,
+    "tags": [
+      "18plus",
+      "esteto"
+    ]
+  },
+  {
+    "title": "Parfum Ambient Grapefruit Virginia Parfums Favisan, 50ml",
+    "description": "Favisan",
+    "category": "18plus",
+    "priceCents": 3100,
+    "oldPriceCents": 6500,
+    "currency": "RON",
+    "imageUrl": "https://www.esteto.ro/static/images/produse/101863/parfum-ambient-grapefruit-virginia-parfums-favisan-50ml-1539180653020-1.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=346652374&aff_code=fd9130a9e&campaign_unique=59bb5f58d",
+    "sourceName": "esteto.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.2,
+    "tags": [
+      "18plus",
+      "esteto"
+    ]
+  },
+  {
+    "title": "Paleta mixare machiaj cu spatula LUXORISE",
+    "description": "LUXORISE Professional",
+    "category": "18plus",
+    "priceCents": 1989,
+    "oldPriceCents": 4000,
+    "currency": "RON",
+    "imageUrl": "https://d.cdnmp.net/150529817/p/l/5/paleta-mixare-machiaj-cu-spatula-luxorise~8407975.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=d8f4a5d1a&aff_code=fd9130a9e&campaign_unique=cc08e2536",
+    "sourceName": "esteto.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.3,
+    "tags": [
+      "18plus",
+      "esteto"
+    ]
+  },
+  {
+    "title": "Lac de unghii semipermanent Bluesky UV Dark Green Sparkle 15ml",
+    "description": "Bluesky",
+    "category": "18plus",
+    "priceCents": 2950,
+    "oldPriceCents": 5900,
+    "currency": "RON",
+    "imageUrl": "https://media.topline.ro/catalog/product/placeholder/default/1.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=0917d5286&aff_code=fd9130a9e&campaign_unique=568090529",
+    "sourceName": "esteto.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.7,
+    "tags": [
+      "18plus",
+      "esteto"
+    ]
+  },
+  {
+    "title": "Gel de ras - NISH MAN transparent EASY SHAVE - 400 ml",
+    "description": "NISHMAN",
+    "category": "18plus",
+    "priceCents": 3180,
+    "oldPriceCents": 5300,
+    "currency": "RON",
+    "imageUrl": "https://barber-store.ro/images/thumbs/000/0006292_gel-de-ras-nish-man-transparent-easy-shave-400-ml_600.jpg",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=37e9871c0&aff_code=fd9130a9e&campaign_unique=c7b68464c",
+    "sourceName": "esteto.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.4,
+    "tags": [
+      "18plus",
+      "esteto"
+    ]
+  },
+  {
+    "title": "Lac unghii saptamanal CND Vinylux 118 Grapefruit Sparkle 15 ml",
+    "description": "Cnd",
+    "category": "18plus",
+    "priceCents": 3840,
+    "oldPriceCents": 6400,
+    "currency": "RON",
+    "imageUrl": "https://media.topline.ro/catalog/product/c/n/cnd09881-1.png",
+    "affiliateUrl": "https://event.2performant.com/events/click?ad_type=product_store&unique=d8f0e6b49&aff_code=fd9130a9e&campaign_unique=568090529",
+    "sourceName": "esteto.ro",
+    "sourceType": "affiliate",
+    "available": true,
+    "rating": 4.6,
+    "tags": [
+      "18plus",
+      "esteto"
+    ]
+  },
+  {
+    "title": "Escape Room The Heist la Captive",
+    "description": "Jefuiește seiful într-o oră. 2-6 jucători.",
+    "category": "de_facut",
+    "priceCents": 20000,
+    "oldPriceCents": 25000,
+    "priceSuffix": "lei/grup",
+    "currency": "RON",
+    "imageUrl": "https://picsum.photos/seed/escape1/600/400",
+    "productUrl": "https://captive.ro",
+    "affiliateUrl": null,
+    "sourceName": "Captive",
+    "sourceType": "manual",
+    "available": true,
+    "rating": 4.8,
+    "tags": [
+      "de_facut",
+      "escape-room",
+      "bucuresti"
+    ]
+  },
+  {
+    "title": "Escape Room Laboratorul Secret",
+    "description": "Rezolvă puzzle-uri științifice. 2-5 jucători.",
+    "category": "de_facut",
+    "priceCents": 18000,
+    "oldPriceCents": 22000,
+    "priceSuffix": "lei/grup",
+    "currency": "RON",
+    "imageUrl": "https://picsum.photos/seed/escape2/600/400",
+    "productUrl": "https://escapecentral.ro",
+    "affiliateUrl": null,
+    "sourceName": "Escape Central",
+    "sourceType": "manual",
+    "available": true,
+    "rating": 4.7,
+    "tags": [
+      "de_facut",
+      "escape-room",
+      "bucuresti"
+    ]
+  },
+  {
+    "title": "Spectacol la Teatrul Național",
+    "description": "Experiență teatrală de top",
+    "category": "de_facut",
+    "priceCents": 7500,
+    "oldPriceCents": 9000,
+    "priceSuffix": "lei/persoană",
+    "currency": "RON",
+    "imageUrl": "https://picsum.photos/seed/theater/600/400",
+    "productUrl": "https://www.tnb.ro",
+    "affiliateUrl": null,
+    "sourceName": "TNB",
+    "sourceType": "manual",
+    "available": true,
+    "rating": 4.6,
+    "tags": [
+      "de_facut",
+      "teatru",
+      "bucuresti"
+    ]
+  },
+  {
+    "title": "Via Ferrata la Cheile Grădiștei",
+    "description": "Cățărare pe traseu via ferrata cu echipament inclus",
+    "category": "de_facut",
+    "priceCents": 15000,
+    "oldPriceCents": 18000,
+    "priceSuffix": "lei/persoană",
+    "currency": "RON",
+    "imageUrl": "https://picsum.photos/seed/ferrata/600/400",
+    "productUrl": "https://climbagain.ro",
+    "affiliateUrl": null,
+    "sourceName": "Climb Again",
+    "sourceType": "manual",
+    "available": true,
+    "rating": 4.9,
+    "tags": [
+      "de_facut",
+      "outdoor",
+      "brasov"
+    ]
+  },
+  {
+    "title": "Operă la ONB",
+    "description": "Seară la Opera Națională București",
+    "category": "de_facut",
+    "priceCents": 10000,
+    "oldPriceCents": 12000,
+    "priceSuffix": "lei/persoană",
+    "currency": "RON",
+    "imageUrl": "https://picsum.photos/seed/opera/600/400",
+    "productUrl": "https://operanb.ro",
+    "affiliateUrl": null,
+    "sourceName": "Opera Națională",
+    "sourceType": "manual",
+    "available": true,
+    "rating": 4.7,
+    "tags": [
+      "de_facut",
+      "opera",
+      "bucuresti"
+    ]
+  },
+  {
+    "title": "Drumeție Piatra Craiului cu ghid",
+    "description": "Tur de o zi cu ghid montan autorizat",
+    "category": "de_facut",
+    "priceCents": 20000,
+    "oldPriceCents": 25000,
+    "priceSuffix": "lei/persoană",
+    "currency": "RON",
+    "imageUrl": "https://picsum.photos/seed/hike/600/400",
+    "productUrl": "https://mountaintrip.ro",
+    "affiliateUrl": null,
+    "sourceName": "Mountain Trip",
+    "sourceType": "manual",
+    "available": true,
+    "rating": 4.8,
+    "tags": [
+      "de_facut",
+      "hiking",
+      "brasov"
+    ]
+  },
+  {
+    "title": "Workshop ceramică",
+    "description": "Creează propria ceașcă într-un atelier ghidat",
+    "category": "de_facut",
+    "priceCents": 18000,
+    "oldPriceCents": 22000,
+    "priceSuffix": "lei/persoană",
+    "currency": "RON",
+    "imageUrl": "https://picsum.photos/seed/ceramic/600/400",
+    "affiliateUrl": null,
+    "sourceName": "Atelier Ceramica",
+    "sourceType": "manual",
+    "available": true,
+    "rating": 4.6,
+    "tags": [
+      "de_facut",
+      "workshop",
+      "bucuresti"
+    ]
+  },
+  {
+    "title": "Degustare de vin cu somelier",
+    "description": "Degustă 6 vinuri premium cu explicații de expert",
+    "category": "de_facut",
+    "priceCents": 25000,
+    "oldPriceCents": 30000,
+    "priceSuffix": "lei/persoană",
+    "currency": "RON",
+    "imageUrl": "https://picsum.photos/seed/winetasting/600/400",
+    "affiliateUrl": null,
+    "sourceName": "Vinoteca",
+    "sourceType": "manual",
+    "available": true,
+    "rating": 4.7,
+    "tags": [
+      "de_facut",
+      "tasting",
+      "bucuresti"
+    ]
+  }
 ]
